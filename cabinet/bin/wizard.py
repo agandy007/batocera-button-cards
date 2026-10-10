@@ -97,6 +97,7 @@ def main():
     ap.add_argument("--above", type=int, default=2, help="small buttons above the rows (coin/start), default 2")
     ap.add_argument("--timeout", type=int, default=120)
     ap.add_argument("--compare", action="store_true", help="compare another player's wiring with panel.json")
+    ap.add_argument("--controls", default="joystick", help="controls this cabinet has, e.g. joystick,trackball,spinner")
     ap.add_argument("--out", default=f"{BASE}/panel.json")
     a = ap.parse_args()
     rows = [int(x) for x in a.rows.split(",")]
@@ -122,6 +123,7 @@ def main():
         "device_type": "keyboard" if max(codes) < ecodes.BTN_MISC else "joystick",
         "screen": old.get("screen") or ({"width": scr[1], "height": scr[2], "output": scr[0]} if scr else {"width": 1024, "height": 600, "output": "HDMI-2"}),
         "rows": grid, "above": above, "codes": pos_codes, "colors": colors, "confirmed": True,
+        "controls": [c.strip() for c in a.controls.split(",") if c.strip()],
     }
     json.dump(panel, open(a.out, "w"), indent=2)
     print(f"\nSaved {a.out}  ({panel['device_type']} encoder: {panel['device_hint']})")

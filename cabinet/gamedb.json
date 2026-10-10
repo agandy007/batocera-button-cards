@@ -593,14 +593,14 @@
 },
 "mame/chasehq": {
 "labels": {
-"1": "Gear",
-"2": "Turbo",
-"3": "Button 3",
-"4": "Button 4"
+"1": "Gas Switch",
+"2": "Brake Switch",
+"3": "Turbo",
+"4": "Shifter"
 },
 "mame_buttons": 4,
 "sources": [
-"knowledge",
+"mame-source",
 "mame2003-plus-listxml"
 ],
 "stick": "wheel"
@@ -2046,8 +2046,8 @@
 },
 "mame_buttons": 6,
 "sources": [
-"mame2003-plus-listxml",
-"mame2003-plus-source"
+"mame-source",
+"mame2003-plus-listxml"
 ],
 "stick": "8-way joystick"
 },
@@ -2063,6 +2063,7 @@
 "mame_buttons": 6,
 "note": "Down + high punch = uppercut",
 "sources": [
+"mame-source",
 "mame2003-plus-listxml",
 "mame2003-plus-source"
 ],
@@ -2079,8 +2080,8 @@
 },
 "mame_buttons": 6,
 "sources": [
-"mame2003-plus-listxml",
-"mame2003-plus-source"
+"mame-source",
+"mame2003-plus-listxml"
 ],
 "stick": "8-way joystick"
 },
@@ -2164,13 +2165,13 @@
 "mame/narc": {
 "labels": {
 "1": "Fire",
-"2": "Rocket",
-"3": "Jump",
-"4": "Duck"
+"2": "Jump",
+"3": "Rocket Bomb",
+"4": "Crouch"
 },
 "mame_buttons": 4,
 "sources": [
-"knowledge",
+"mame-source",
 "mame2003-plus-listxml"
 ],
 "stick": "8-way joystick"
@@ -2178,8 +2179,8 @@
 "mame/nbajam": {
 "labels": {
 "1": "Turbo",
-"2": "Shoot",
-"3": "Pass"
+"2": "Shoot / Block",
+"3": "Pass / Steal"
 },
 "mame_buttons": 3,
 "sources": [
@@ -2191,8 +2192,8 @@
 "mame/nbajamte": {
 "labels": {
 "1": "Turbo",
-"2": "Shoot",
-"3": "Pass"
+"2": "Shoot / Block",
+"3": "Pass / Steal"
 },
 "mame_buttons": 3,
 "sources": [
@@ -2442,11 +2443,11 @@
 "labels": {
 "1": "Punch",
 "2": "Kick",
-"3": "Jump"
+"3": "Jump/Start"
 },
 "mame_buttons": 3,
 "sources": [
-"knowledge",
+"mame-source",
 "mame2003-plus-listxml"
 ],
 "stick": "8-way joystick"
@@ -3315,15 +3316,15 @@
 "mame/toobin": {
 "labels": {
 "1": "Throw",
-"2": "Right Paddle Fwd",
-"3": "Left Paddle Fwd",
-"4": "Left Paddle Back",
-"5": "Right Paddle Back"
+"2": "R Paddle Forward",
+"3": "L Paddle Forward",
+"4": "L Paddle Backward",
+"5": "R Paddle Backward"
 },
 "mame_buttons": 5,
 "sources": [
-"mame2003-plus-listxml",
-"mame2003-plus-source"
+"mame-source",
+"mame2003-plus-listxml"
 ],
 "stick": "buttons only"
 },
@@ -3413,8 +3414,8 @@
 },
 "mame_buttons": 6,
 "sources": [
-"mame2003-plus-listxml",
-"mame2003-plus-source"
+"mame-source",
+"mame2003-plus-listxml"
 ],
 "stick": "8-way joystick"
 },
@@ -3726,8 +3727,8 @@
 },
 "ports/smw": {
 "labels": {
-"a": "Jump",
-"b": "Power-up"
+"B": "Jump",
+"Y": "Power-up"
 },
 "sources": [
 "knowledge"
@@ -3784,8 +3785,8 @@
 },
 "superbroswar/smw": {
 "labels": {
-"a": "Jump",
-"b": "Power-up"
+"B": "Jump",
+"Y": "Power-up"
 },
 "sources": [
 "knowledge"

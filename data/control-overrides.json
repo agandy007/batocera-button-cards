@@ -1,0 +1,12 @@
+{
+  "_comment": "Games whose REQUIRED control differs from MAME's first-listed control (or that MAME 0.258 doesn't know under their 0.78 name). Values: joystick, twin-joystick, spinner, trackball, wheel, analog-stick, periscope, lightgun.",
+  "foodf": "joystick",
+  "sinistar": "joystick",
+  "arknoidu": "spinner",
+  "tron": "spinner",
+  "centtime": "trackball",
+  "milliped": "trackball",
+  "shangonb": "wheel",
+  "buckrog": "wheel",
+  "gtmr2": "wheel"
+}

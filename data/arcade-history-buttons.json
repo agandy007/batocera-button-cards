@@ -1,0 +1,805 @@
+{
+"1942": {
+"count": 2,
+"names": []
+},
+"1943kai": {
+"count": 2,
+"names": []
+},
+"actfancr": {
+"count": 2,
+"names": []
+},
+"airwolf": {
+"count": 2,
+"names": []
+},
+"aliensu": {
+"count": 2,
+"names": [
+"Shoot1",
+"Shoot2"
+]
+},
+"aliensyn": {
+"count": 1,
+"names": []
+},
+"amidar": {
+"count": 1,
+"names": []
+},
+"aquajack": {
+"count": 4,
+"names": []
+},
+"asterix": {
+"count": 2,
+"names": []
+},
+"asteroid": {
+"count": 5,
+"names": []
+},
+"astormbl": {
+"count": 3,
+"names": []
+},
+"bankp": {
+"count": 3,
+"names": [
+"Left fire",
+"Center fire",
+"Right fire"
+]
+},
+"batman": {
+"count": 2,
+"names": []
+},
+"batrider": {
+"count": 3,
+"names": [
+"Fire",
+"Bomb",
+"Option"
+]
+},
+"blswhstl": {
+"count": 2,
+"names": []
+},
+"bogeyman": {
+"count": 2,
+"names": []
+},
+"bombjack": {
+"count": 1,
+"names": [
+"JUMP"
+]
+},
+"btime": {
+"count": 1,
+"names": [
+"PEPPER"
+]
+},
+"btoads": {
+"count": 2,
+"names": []
+},
+"candance": {
+"count": 3,
+"names": []
+},
+"cbuster": {
+"count": 3,
+"names": []
+},
+"circusc": {
+"count": 1,
+"names": [
+"JUMP"
+]
+},
+"citycon": {
+"count": 2,
+"names": []
+},
+"columns": {
+"count": 1,
+"names": [
+"Rotate"
+]
+},
+"contra": {
+"count": 2,
+"names": [
+"SHOOT",
+"JUMP"
+]
+},
+"ctribe": {
+"count": 2,
+"names": []
+},
+"cyvern": {
+"count": 2,
+"names": [
+"Shoot / Banish",
+"Bomb"
+]
+},
+"darkseal": {
+"count": 2,
+"names": []
+},
+"dbreed": {
+"count": 2,
+"names": [
+"Shoot",
+"Jump"
+]
+},
+"ddcrew": {
+"count": 3,
+"names": []
+},
+"deadconx": {
+"count": 2,
+"names": []
+},
+"digdug": {
+"count": 1,
+"names": [
+"PUMP"
+]
+},
+"digdug2": {
+"count": 2,
+"names": [
+"Pump",
+"Drill"
+]
+},
+"docastle": {
+"count": 2,
+"names": []
+},
+"dogyuun": {
+"count": 3,
+"names": []
+},
+"dondokod": {
+"count": 2,
+"names": []
+},
+"donpachi": {
+"count": 3,
+"names": [
+"Shoot",
+"Bomb",
+"Full-Auto"
+]
+},
+"edrandy": {
+"count": 2,
+"names": []
+},
+"elevator": {
+"count": 2,
+"names": [
+"FIRE",
+"JUMP"
+]
+},
+"elvactr": {
+"count": 4,
+"names": []
+},
+"exedexes": {
+"count": 2,
+"names": []
+},
+"fantzone": {
+"count": 2,
+"names": []
+},
+"flicky": {
+"count": 1,
+"names": []
+},
+"foodf": {
+"count": 1,
+"names": [
+"THROW"
+]
+},
+"funkyjet": {
+"count": 2,
+"names": []
+},
+"ga2": {
+"count": 3,
+"names": []
+},
+"galaga": {
+"count": 1,
+"names": [
+"FIRE"
+]
+},
+"galaxian": {
+"count": 1,
+"names": [
+"FIRE"
+]
+},
+"galmedes": {
+"count": 2,
+"names": []
+},
+"gangwars": {
+"count": 3,
+"names": []
+},
+"gaplus": {
+"count": 1,
+"names": [
+"FIRE"
+]
+},
+"gaunt22p": {
+"count": 2,
+"names": []
+},
+"gnbarich": {
+"count": 3,
+"names": []
+},
+"godzilla": {
+"count": 2,
+"names": []
+},
+"goldnaxe": {
+"count": 3,
+"names": [
+"JUMP",
+"ATTACK",
+"MAGIC"
+]
+},
+"gradius": {
+"count": 3,
+"names": []
+},
+"gradius2": {
+"count": 3,
+"names": []
+},
+"grdians": {
+"count": 3,
+"names": []
+},
+"gunbird2": {
+"count": 3,
+"names": []
+},
+"gunnail": {
+"count": 2,
+"names": []
+},
+"guwange": {
+"count": 3,
+"names": [
+"Shoot / Spirit",
+"Bomb",
+"Auto Fire"
+]
+},
+"gyruss": {
+"count": 1,
+"names": []
+},
+"hattrick": {
+"count": 1,
+"names": []
+},
+"hooku": {
+"count": 2,
+"names": []
+},
+"horizon": {
+"count": 2,
+"names": []
+},
+"hvysmsh": {
+"count": 6,
+"names": []
+},
+"ikarijpb": {
+"count": 2,
+"names": []
+},
+"invaders": {
+"count": 3,
+"names": [
+"LEFT",
+"RIGHT",
+"FIRE"
+]
+},
+"journey": {
+"count": 1,
+"names": []
+},
+"joust": {
+"count": 1,
+"names": [
+"FLAP"
+]
+},
+"junofrst": {
+"count": 3,
+"names": []
+},
+"karnov": {
+"count": 2,
+"names": [
+"JUMP",
+"SELECT"
+]
+},
+"klax": {
+"count": 1,
+"names": []
+},
+"ldrun": {
+"count": 2,
+"names": [
+"DIG LEFT",
+"DIG RIGHT"
+]
+},
+"ldrun2": {
+"count": 2,
+"names": [
+"DIG LEFT",
+"DIG RIGHT"
+]
+},
+"ldrun4": {
+"count": 2,
+"names": [
+"DIG LEFT",
+"DIG RIGHT"
+]
+},
+"lkage": {
+"count": 2,
+"names": []
+},
+"loht": {
+"count": 4,
+"names": []
+},
+"looping": {
+"count": 2,
+"names": [
+"FIRE",
+"FLIGHT ACCELERATOR"
+]
+},
+"macross": {
+"count": 2,
+"names": []
+},
+"macross2": {
+"count": 2,
+"names": []
+},
+"macrossp": {
+"count": 4,
+"names": []
+},
+"mazinger": {
+"count": 3,
+"names": []
+},
+"metamrph": {
+"count": 2,
+"names": []
+},
+"mgcrystl": {
+"count": 2,
+"names": []
+},
+"mk": {
+"count": 5,
+"names": [
+"High Punch",
+"Block",
+"High Kick",
+"Low Punch",
+"Low Kick"
+]
+},
+"mk2": {
+"count": 5,
+"names": [
+"High Punch",
+"Block",
+"High Kick",
+"Low Punch",
+"Low Kick"
+]
+},
+"mk3": {
+"count": 6,
+"names": [
+"High Punch",
+"Block",
+"High Kick",
+"Low Punch",
+"Low Kick",
+"Run"
+]
+},
+"monsterb": {
+"count": 1,
+"names": [
+"ZAP"
+]
+},
+"mpatrol": {
+"count": 2,
+"names": [
+"Fire",
+"Jump"
+]
+},
+"mrdo": {
+"count": 1,
+"names": []
+},
+"narc": {
+"count": 4,
+"names": []
+},
+"nbajam": {
+"count": 3,
+"names": []
+},
+"nbajamte": {
+"count": 3,
+"names": []
+},
+"ninjak": {
+"count": 2,
+"names": []
+},
+"ninjakd2": {
+"count": 2,
+"names": []
+},
+"nrallyx": {
+"count": 1,
+"names": [
+"SMOKE SCREEN"
+]
+},
+"nslasher": {
+"count": 3,
+"names": [
+"Attack",
+"Jump",
+"Special/Block"
+]
+},
+"outzone": {
+"count": 3,
+"names": []
+},
+"pacland": {
+"count": 3,
+"names": [
+"RUN LEFT",
+"RUN RIGHT",
+"JUMP"
+]
+},
+"parodius": {
+"count": 3,
+"names": []
+},
+"pengo": {
+"count": 1,
+"names": [
+"PUSH"
+]
+},
+"peterpak": {
+"count": 2,
+"names": []
+},
+"phoenix": {
+"count": 2,
+"names": [
+"Fire",
+"Force Field"
+]
+},
+"pipedrm": {
+"count": 2,
+"names": []
+},
+"pitfight": {
+"count": 3,
+"names": []
+},
+"pooyan": {
+"count": 1,
+"names": [
+"FIRE"
+]
+},
+"popeyef": {
+"count": 1,
+"names": [
+"PUNCH"
+]
+},
+"punchout": {
+"count": 3,
+"names": [
+"LEFT BLOW",
+"RIGHT BLOW",
+"KNOCKOUT BLOW"
+]
+},
+"puyopuy2": {
+"count": 2,
+"names": []
+},
+"qix": {
+"count": 2,
+"names": [
+"SLOW",
+"FAST"
+]
+},
+"rallyx": {
+"count": 1,
+"names": [
+"SMOKE SCREEN"
+]
+},
+"rampage": {
+"count": 2,
+"names": []
+},
+"ringking": {
+"count": 3,
+"names": []
+},
+"robocop": {
+"count": 2,
+"names": []
+},
+"rocnrope": {
+"count": 2,
+"names": []
+},
+"rthun2": {
+"count": 2,
+"names": [
+"ATTACK",
+"JUMP"
+]
+},
+"rthunder": {
+"count": 2,
+"names": []
+},
+"rtype2": {
+"count": 2,
+"names": []
+},
+"rtypeleo": {
+"count": 2,
+"names": []
+},
+"s1945": {
+"count": 3,
+"names": []
+},
+"s1945ii": {
+"count": 2,
+"names": []
+},
+"s1945iii": {
+"count": 3,
+"names": []
+},
+"shadfrce": {
+"count": 6,
+"names": []
+},
+"shaolins": {
+"count": 2,
+"names": []
+},
+"shdancer": {
+"count": 3,
+"names": [
+"ATTACK",
+"JUMP",
+"MAGIC"
+]
+},
+"shinobi": {
+"count": 3,
+"names": []
+},
+"shollow": {
+"count": 2,
+"names": []
+},
+"sinistar": {
+"count": 2,
+"names": [
+"FIRE",
+"SINIBOMB"
+]
+},
+"sonson": {
+"count": 1,
+"names": []
+},
+"splatter": {
+"count": 2,
+"names": []
+},
+"spnchout": {
+"count": 3,
+"names": [
+"LEFT BLOW",
+"RIGHT BLOW",
+"KNOCKOUT BLOW"
+]
+},
+"stdragon": {
+"count": 2,
+"names": []
+},
+"stmblade": {
+"count": 2,
+"names": []
+},
+"superman": {
+"count": 2,
+"names": [
+"PUNCH",
+"KICK"
+]
+},
+"superpac": {
+"count": 1,
+"names": [
+"SUPER SPEED"
+]
+},
+"tapper": {
+"count": 1,
+"names": []
+},
+"timeplt": {
+"count": 1,
+"names": [
+"FIRE"
+]
+},
+"tmnt2po": {
+"count": 2,
+"names": [
+"JUMP",
+"ATTACK"
+]
+},
+"toobin": {
+"count": 5,
+"names": []
+},
+"truxton2": {
+"count": 4,
+"names": []
+},
+"tumblep": {
+"count": 2,
+"names": []
+},
+"uccops": {
+"count": 2,
+"names": [
+"ATTACK",
+"JUMP"
+]
+},
+"umk3": {
+"count": 6,
+"names": [
+"High Punch",
+"Block",
+"High Kick",
+"Low Punch",
+"Low Kick",
+"Run"
+]
+},
+"upndown": {
+"count": 1,
+"names": [
+"JUMP"
+]
+},
+"valkyrie": {
+"count": 3,
+"names": []
+},
+"vball": {
+"count": 2,
+"names": []
+},
+"volfied": {
+"count": 1,
+"names": []
+},
+"wbmlb": {
+"count": 2,
+"names": [
+"STAB",
+"JUMP"
+]
+},
+"wboyu": {
+"count": 2,
+"names": []
+},
+"wildfang": {
+"count": 3,
+"names": []
+},
+"wow": {
+"count": 1,
+"names": [
+"FIRE"
+]
+},
+"xevious": {
+"count": 2,
+"names": [
+"Zapper",
+"Blaster"
+]
+},
+"xexex": {
+"count": 2,
+"names": []
+},
+"xmultipl": {
+"count": 4,
+"names": []
+},
+"zaxxon": {
+"count": 1,
+"names": [
+"FIRE"
+]
+},
+"zerowing": {
+"count": 2,
+"names": []
+}
+}

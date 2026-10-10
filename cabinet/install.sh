@@ -6,10 +6,10 @@ cd "$(dirname "$0")"
 D=/userdata/system/cardview
 ES=/userdata/system/configs/emulationstation/scripts
 mkdir -p "$D/bin" "$D/cards" /userdata/system/services "$ES/game-selected" "$ES/system-selected" "$ES/game-start" "$ES/game-end"
-cp bin/cardview-show bin/cardgen.py bin/wizard.py "$D/bin/" && chmod +x "$D/bin/"*
+cp bin/cardview-show bin/cardgen.py bin/wizard.py bin/playable.py "$D/bin/" && chmod +x "$D/bin/"*
 [ -f "$D/layout.json" ] && [ "$(python3 -c "import json;print(json.load(open('$D/layout.json')).get('confirmed'))")" = "True" ] \
   && echo "keeping confirmed layout.json" || cp layout.json "$D/layout.json"
-cp gamedb.json ../data/profiles.json "$D/"
+cp gamedb.json ../data/profiles.json ../data/mame2003plus-controls.json ../data/control-overrides.json "$D/"
 [ -f "$D/panel.json" ] && python3 -c "import json,sys;sys.exit(0 if json.load(open('$D/panel.json')).get('confirmed') else 1)" \
   && echo "keeping confirmed panel.json" || cp panel.example.json "$D/panel.json"
 cp services/cardview /userdata/system/services/cardview && chmod +x /userdata/system/services/cardview

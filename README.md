@@ -66,6 +66,12 @@ ssh root@<cabinet-ip> /userdata/system/batocera-button-cards/cabinet/install.sh
 Joystick-type encoders (DragonRise "zero delay", Xin-Mo, …) and keyboard-type encoders (I-PAC, …) are both supported:
 the wizard records whichever device you press.
 
+Then hide the games your controls can't play (wheel, yoke, twin-stick, spinner, trackball…) — reversible:
+
+```bash
+ssh root@<cabinet-ip> python3 /userdata/system/cardview/bin/playable.py --apply
+```
+
 ## Extras
 
 - `cabinet/extras/wifiwatchdog` — optional Batocera service. Some Wi-Fi adapters come up and go straight back down at

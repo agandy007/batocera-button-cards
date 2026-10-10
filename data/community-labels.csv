@@ -73,9 +73,9 @@ mame,avspirit,stick,8-way joystick,mame2003-plus-listxml
 mame,baddudes,1,Attack,knowledge
 mame,baddudes,2,Jump,knowledge
 mame,baddudes,stick,8-way joystick,mame2003-plus-listxml
-mame,bankp,1,Shoot Left,knowledge
-mame,bankp,2,Shoot Middle,knowledge
-mame,bankp,3,Shoot Right,knowledge
+mame,bankp,1,Shoot Left,arcade-history-confirmed
+mame,bankp,2,Shoot Middle,arcade-history-confirmed
+mame,bankp,3,Shoot Right,arcade-history-confirmed
 mame,bankp,stick,2-way joystick (left/right),mame2003-plus-listxml
 mame,batman,1,Attack,knowledge
 mame,batman,2,Jump,knowledge
@@ -108,23 +108,23 @@ mame,bnj,stick,8-way joystick,mame2003-plus-listxml
 mame,bogeyman,1,Fire,knowledge
 mame,bogeyman,2,Jump,knowledge
 mame,bogeyman,stick,8-way joystick,mame2003-plus-listxml
-mame,bombjack,1,Jump,knowledge
+mame,bombjack,1,Jump,arcade-history-confirmed
 mame,bombjack,stick,8-way joystick,mame2003-plus-listxml
-mame,btime,1,Pepper,knowledge
+mame,btime,1,Pepper,arcade-history-confirmed
 mame,btime,stick,4-way joystick,mame2003-plus-listxml
 mame,btoads,1,Attack,knowledge
 mame,btoads,2,Jump,knowledge
 mame,btoads,stick,8-way joystick,mame2003-plus-listxml
-mame,bubbles,stick,8-way joystick,mame2003-plus-listxml
 mame,bubbles,note,Joystick only - no buttons needed,knowledge
+mame,bubbles,stick,8-way joystick,mame2003-plus-listxml
 mame,bubbobr1,1,Bubble / Fire,knowledge
 mame,bubbobr1,2,Jump,knowledge
 mame,bubbobr1,stick,8-way joystick,mame2003-plus-listxml
 mame,buckrog,1,Fire,knowledge
 mame,buckrog,2,Button 2,knowledge
 mame,buckrog,3,Button 3,knowledge
-mame,buckrog,stick,8-way joystick,mame2003-plus-listxml
 mame,buckrog,note,Pedal = speed,knowledge
+mame,buckrog,stick,8-way joystick,mame2003-plus-listxml
 mame,buckyua,1,Fire,knowledge
 mame,buckyua,2,Jump,knowledge
 mame,buckyua,stick,8-way joystick,mame2003-plus-listxml
@@ -150,14 +150,14 @@ mame,ccastles,1,Jump,knowledge
 mame,ccastles,2,Jump,knowledge
 mame,ccastles,3,Jump,knowledge
 mame,ccastles,stick,trackball,mame2003-plus-listxml
-mame,cclimber,stick,dual joysticks,mame2003-plus-listxml
 mame,cclimber,note,Climb with both sticks,knowledge
+mame,cclimber,stick,dual joysticks,mame2003-plus-listxml
 mame,centtime,1,Fire,knowledge
 mame,centtime,stick,trackball,mame2003-plus-listxml
-mame,chasehq,1,Gear,knowledge
-mame,chasehq,2,Turbo,knowledge
-mame,chasehq,3,Button 3,knowledge
-mame,chasehq,4,Button 4,knowledge
+mame,chasehq,1,Gas Switch,mame-source
+mame,chasehq,2,Brake Switch,mame-source
+mame,chasehq,3,Turbo,mame-source
+mame,chasehq,4,Shifter,mame-source
 mame,chasehq,stick,wheel,mame2003-plus-listxml
 mame,chinagat,1,Attack,knowledge
 mame,chinagat,2,Jump,knowledge
@@ -166,20 +166,20 @@ mame,chinagat,stick,8-way joystick,mame2003-plus-listxml
 mame,chplftb,1,Fire,knowledge
 mame,chplftb,2,Bomb,knowledge
 mame,chplftb,stick,8-way joystick,mame2003-plus-listxml
-mame,circusc,1,Jump,knowledge
+mame,circusc,1,Jump,arcade-history-confirmed
 mame,circusc,stick,2-way joystick (left/right),mame2003-plus-listxml
 mame,citycon,1,Jump,knowledge
 mame,citycon,2,Oil Can,knowledge
 mame,citycon,stick,8-way joystick,mame2003-plus-listxml
-mame,columns,1,Rotate,knowledge
+mame,columns,1,Rotate,arcade-history-confirmed
 mame,columns,stick,8-way joystick,mame2003-plus-listxml
 mame,commandu,1,Fire,knowledge
 mame,commandu,2,Grenade,knowledge
 mame,commandu,stick,8-way joystick,mame2003-plus-listxml
 mame,congo,1,Jump,knowledge
 mame,congo,stick,8-way joystick,mame2003-plus-listxml
-mame,contra,1,Fire,knowledge
-mame,contra,2,Jump,knowledge
+mame,contra,1,Fire,arcade-history-confirmed
+mame,contra,2,Jump,arcade-history-confirmed
 mame,contra,stick,8-way joystick,mame2003-plus-listxml
 mame,crimfgt2,1,Punch,knowledge
 mame,crimfgt2,2,Kick,knowledge
@@ -222,12 +222,12 @@ mame,defendg,2,Thrust,knowledge
 mame,defendg,3,Smart Bomb,knowledge
 mame,defendg,4,Reverse,knowledge
 mame,defendg,5,Hyperspace,knowledge
-mame,defendg,stick,8-way joystick,mame2003-plus-listxml
 mame,defendg,note,Original had 5 buttons,knowledge
-mame,digdug,1,Pump,knowledge
+mame,defendg,stick,8-way joystick,mame2003-plus-listxml
+mame,digdug,1,Pump,arcade-history-confirmed
 mame,digdug,stick,4-way joystick,mame2003-plus-listxml
-mame,digdug2,1,Pump,knowledge
-mame,digdug2,2,Drill,knowledge
+mame,digdug2,1,Pump,arcade-history-confirmed
+mame,digdug2,2,Drill,arcade-history-confirmed
 mame,digdug2,stick,4-way joystick,mame2003-plus-listxml
 mame,dkong3,1,Spray,knowledge
 mame,dkong3,stick,4-way joystick,mame2003-plus-listxml
@@ -259,8 +259,8 @@ mame,dsaber,stick,8-way joystick,mame2003-plus-listxml
 mame,edrandy,1,Whip,knowledge
 mame,edrandy,2,Jump,knowledge
 mame,edrandy,stick,8-way joystick,mame2003-plus-listxml
-mame,elevator,1,Fire,knowledge
-mame,elevator,2,Jump,knowledge
+mame,elevator,1,Fire,arcade-history-confirmed
+mame,elevator,2,Jump,arcade-history-confirmed
 mame,elevator,stick,8-way joystick,mame2003-plus-listxml
 mame,elvactr,1,Shot,knowledge
 mame,elvactr,2,Jump,knowledge
@@ -279,10 +279,10 @@ mame,fantzone,3,Button 3,knowledge
 mame,fantzone,stick,8-way joystick,mame2003-plus-listxml
 mame,flicky,1,Throw,knowledge
 mame,flicky,stick,2-way joystick (left/right),mame2003-plus-listxml
-mame,foodf,1,Throw,knowledge
+mame,foodf,1,Throw,arcade-history-confirmed
 mame,foodf,stick,analog stick,mame2003-plus-listxml
-mame,frogger,stick,4-way joystick,mame2003-plus-listxml
 mame,frogger,note,Joystick only - no buttons needed,knowledge
+mame,frogger,stick,4-way joystick,mame2003-plus-listxml
 mame,funkyjet,1,Attack,knowledge
 mame,funkyjet,2,Jump,knowledge
 mame,funkyjet,3,Button 3,knowledge
@@ -295,13 +295,13 @@ mame,gaiden,1,Attack,knowledge
 mame,gaiden,2,Jump,knowledge
 mame,gaiden,3,Button 3,knowledge
 mame,gaiden,stick,8-way joystick,mame2003-plus-listxml
-mame,galaga,1,Fire,knowledge
+mame,galaga,1,Fire,arcade-history-confirmed
 mame,galaga,stick,2-way joystick (left/right),mame2003-plus-listxml
 mame,galaga88,1,Fire,knowledge
 mame,galaga88,2,Button 2,knowledge
 mame,galaga88,3,Button 3,knowledge
 mame,galaga88,stick,8-way joystick,mame2003-plus-listxml
-mame,galaxian,1,Fire,knowledge
+mame,galaxian,1,Fire,arcade-history-confirmed
 mame,galaxian,stick,2-way joystick (left/right),mame2003-plus-listxml
 mame,galmedes,1,Shot,knowledge
 mame,galmedes,2,Bomb,knowledge
@@ -310,7 +310,7 @@ mame,gangwars,1,Punch,knowledge
 mame,gangwars,2,Kick,knowledge
 mame,gangwars,3,Jump,knowledge
 mame,gangwars,stick,8-way joystick,mame2003-plus-listxml
-mame,gaplus,1,Fire,knowledge
+mame,gaplus,1,Fire,arcade-history-confirmed
 mame,gaplus,stick,8-way joystick,mame2003-plus-listxml
 mame,gaunt22p,1,Fire,knowledge
 mame,gaunt22p,2,Magic,knowledge
@@ -336,9 +336,9 @@ mame,godzilla,1,Attack,knowledge
 mame,godzilla,2,Jump,knowledge
 mame,godzilla,3,Special,knowledge
 mame,godzilla,stick,8-way joystick,mame2003-plus-listxml
-mame,goldnaxe,1,Magic,knowledge
-mame,goldnaxe,2,Attack,knowledge
-mame,goldnaxe,3,Jump,knowledge
+mame,goldnaxe,1,Magic,arcade-history-confirmed
+mame,goldnaxe,2,Attack,arcade-history-confirmed
+mame,goldnaxe,3,Jump,arcade-history-confirmed
 mame,goldnaxe,stick,8-way joystick,mame2003-plus-listxml
 mame,gorf,1,Fire,knowledge
 mame,gorf,stick,8-way joystick,mame2003-plus-listxml
@@ -433,7 +433,7 @@ mame,jailbrek,2,Weapon,knowledge
 mame,jailbrek,stick,8-way joystick,mame2003-plus-listxml
 mame,journey,1,Fire,knowledge
 mame,journey,stick,4-way joystick,mame2003-plus-listxml
-mame,joust,1,Flap,knowledge
+mame,joust,1,Flap,arcade-history-confirmed
 mame,joust,stick,2-way joystick (left/right),mame2003-plus-listxml
 mame,jungleh,1,Jump / Knife,knowledge
 mame,jungleh,stick,8-way joystick,mame2003-plus-listxml
@@ -445,8 +445,8 @@ mame,karnov,1,Fire,knowledge
 mame,karnov,2,Jump,knowledge
 mame,karnov,3,Item,knowledge
 mame,karnov,stick,8-way joystick,mame2003-plus-listxml
-mame,kchamp,stick,dual joysticks,mame2003-plus-listxml
 mame,kchamp,note,"Two joysticks, no buttons",knowledge
+mame,kchamp,stick,dual joysticks,mame2003-plus-listxml
 mame,kick,1,Kick,knowledge
 mame,kick,stick,spinner,mame2003-plus-listxml
 mame,klax,1,Flip,knowledge
@@ -457,14 +457,14 @@ mame,kungfum,stick,8-way joystick,mame2003-plus-listxml
 mame,landmkrp,1,Rotate,knowledge
 mame,landmkrp,2,Button 2,knowledge
 mame,landmkrp,stick,8-way joystick,mame2003-plus-listxml
-mame,ldrun,1,Dig Left,knowledge
-mame,ldrun,2,Dig Right,knowledge
+mame,ldrun,1,Dig Left,arcade-history-confirmed
+mame,ldrun,2,Dig Right,arcade-history-confirmed
 mame,ldrun,stick,8-way joystick,mame2003-plus-listxml
-mame,ldrun2,1,Dig Left,knowledge
-mame,ldrun2,2,Dig Right,knowledge
+mame,ldrun2,1,Dig Left,arcade-history-confirmed
+mame,ldrun2,2,Dig Right,arcade-history-confirmed
 mame,ldrun2,stick,8-way joystick,mame2003-plus-listxml
-mame,ldrun4,1,Dig Left,knowledge
-mame,ldrun4,2,Dig Right,knowledge
+mame,ldrun4,1,Dig Left,arcade-history-confirmed
+mame,ldrun4,2,Dig Right,arcade-history-confirmed
 mame,ldrun4,stick,8-way joystick,mame2003-plus-listxml
 mame,lethalth,1,Fire,knowledge
 mame,lethalth,2,Special,knowledge
@@ -537,29 +537,29 @@ mame,missile,1,Left Base,knowledge
 mame,missile,2,Center Base,knowledge
 mame,missile,3,Right Base,knowledge
 mame,missile,stick,trackball,mame2003-plus-listxml
-mame,mk,1,Low Punch,mame2003-plus-source
-mame,mk,2,Low Kick,mame2003-plus-source
-mame,mk,3,High Punch,mame2003-plus-source
-mame,mk,4,High Kick,mame2003-plus-source
-mame,mk,5,Block,mame2003-plus-source
-mame,mk,6,Block,mame2003-plus-source
+mame,mk,1,Low Punch,mame-source
+mame,mk,2,Low Kick,mame-source
+mame,mk,3,High Punch,mame-source
+mame,mk,4,High Kick,mame-source
+mame,mk,5,Block,mame-source
+mame,mk,6,Block,mame-source
 mame,mk,stick,8-way joystick,mame2003-plus-listxml
-mame,mk2,1,Low Punch,mame2003-plus-source
-mame,mk2,2,Low Kick,mame2003-plus-source
-mame,mk2,3,High Punch,mame2003-plus-source
-mame,mk2,4,High Kick,mame2003-plus-source
-mame,mk2,5,Block,mame2003-plus-source
-mame,mk2,6,Block,mame2003-plus-source
-mame,mk2,stick,8-way joystick,mame2003-plus-listxml
+mame,mk2,1,Low Punch,mame-source
+mame,mk2,2,Low Kick,mame-source
+mame,mk2,3,High Punch,mame-source
+mame,mk2,4,High Kick,mame-source
+mame,mk2,5,Block,mame-source
+mame,mk2,6,Block,mame-source
 mame,mk2,note,Down + high punch = uppercut,mame2003-plus-source
-mame,mk3,1,Low Punch,mame2003-plus-source
-mame,mk3,2,Low Kick,mame2003-plus-source
-mame,mk3,3,High Punch,mame2003-plus-source
-mame,mk3,4,High Kick,mame2003-plus-source
-mame,mk3,5,Block,mame2003-plus-source
-mame,mk3,6,Run,mame2003-plus-source
+mame,mk2,stick,8-way joystick,mame2003-plus-listxml
+mame,mk3,1,Low Punch,mame-source
+mame,mk3,2,Low Kick,mame-source
+mame,mk3,3,High Punch,mame-source
+mame,mk3,4,High Kick,mame-source
+mame,mk3,5,Block,mame-source
+mame,mk3,6,Run,mame-source
 mame,mk3,stick,8-way joystick,mame2003-plus-listxml
-mame,monsterb,1,Fire,knowledge
+mame,monsterb,1,Fire,arcade-history-confirmed
 mame,monsterb,stick,4-way joystick,mame2003-plus-listxml
 mame,moonwlkb,1,Dance Attack,knowledge
 mame,moonwlkb,2,Button 2,knowledge
@@ -567,34 +567,34 @@ mame,moonwlkb,stick,8-way joystick,mame2003-plus-listxml
 mame,mooua,1,Attack,knowledge
 mame,mooua,2,Jump,knowledge
 mame,mooua,stick,8-way joystick,mame2003-plus-listxml
-mame,mpatrol,1,Fire,knowledge
-mame,mpatrol,2,Jump,knowledge
+mame,mpatrol,1,Fire,arcade-history-confirmed
+mame,mpatrol,2,Jump,arcade-history-confirmed
 mame,mpatrol,stick,2-way joystick (left/right),mame2003-plus-listxml
 mame,mrdo,1,Throw Ball,knowledge
 mame,mrdo,stick,4-way joystick,mame2003-plus-listxml
-mame,mspacman,stick,4-way joystick,mame2003-plus-listxml
 mame,mspacman,note,Joystick only - no buttons needed,knowledge
+mame,mspacman,stick,4-way joystick,mame2003-plus-listxml
 mame,mystwaru,1,Attack,knowledge
 mame,mystwaru,2,Jump,knowledge
 mame,mystwaru,stick,8-way joystick,mame2003-plus-listxml
-mame,narc,1,Fire,knowledge
-mame,narc,2,Rocket,knowledge
-mame,narc,3,Jump,knowledge
-mame,narc,4,Duck,knowledge
+mame,narc,1,Fire,mame-source
+mame,narc,2,Jump,mame-source
+mame,narc,3,Rocket Bomb,mame-source
+mame,narc,4,Crouch,mame-source
 mame,narc,stick,8-way joystick,mame2003-plus-listxml
 mame,nbajam,1,Turbo,play-tested
-mame,nbajam,2,Shoot,play-tested
-mame,nbajam,3,Pass,play-tested
+mame,nbajam,2,Shoot / Block,play-tested
+mame,nbajam,3,Pass / Steal,play-tested
 mame,nbajam,stick,8-way joystick,mame2003-plus-listxml
 mame,nbajamte,1,Turbo,play-tested
-mame,nbajamte,2,Shoot,play-tested
-mame,nbajamte,3,Pass,play-tested
+mame,nbajamte,2,Shoot / Block,play-tested
+mame,nbajamte,3,Pass / Steal,play-tested
 mame,nbajamte,stick,8-way joystick,mame2003-plus-listxml
 mame,nbbatman,1,Attack,knowledge
 mame,nbbatman,2,Jump,knowledge
 mame,nbbatman,stick,8-way joystick,mame2003-plus-listxml
-mame,nibbler,stick,4-way joystick,mame2003-plus-listxml
 mame,nibbler,note,Joystick only - no buttons needed,knowledge
+mame,nibbler,stick,4-way joystick,mame2003-plus-listxml
 mame,ninjak,1,Attack,knowledge
 mame,ninjak,2,Jump,knowledge
 mame,ninjak,stick,8-way joystick,mame2003-plus-listxml
@@ -607,7 +607,7 @@ mame,nitrobal,stick,8-way joystick,mame2003-plus-listxml
 mame,noboranb,1,Button 1,knowledge
 mame,noboranb,2,Button 2,knowledge
 mame,noboranb,stick,8-way joystick,mame2003-plus-listxml
-mame,nrallyx,1,Smoke Screen,knowledge
+mame,nrallyx,1,Smoke Screen,arcade-history-confirmed
 mame,nrallyx,stick,4-way joystick,mame2003-plus-listxml
 mame,nslasher,1,Attack,knowledge
 mame,nslasher,2,Jump,knowledge
@@ -628,10 +628,10 @@ mame,outzone,stick,8-way joystick,mame2003-plus-listxml
 mame,pacland,1,Jump,knowledge
 mame,pacland,2,Left,knowledge
 mame,pacland,3,Right,knowledge
-mame,pacland,stick,buttons only,mame2003-plus-listxml
 mame,pacland,note,Run with the side buttons,knowledge
-mame,pacman,stick,4-way joystick,mame2003-plus-listxml
+mame,pacland,stick,buttons only,mame2003-plus-listxml
 mame,pacman,note,Joystick only - no buttons needed,knowledge
+mame,pacman,stick,4-way joystick,mame2003-plus-listxml
 mame,paperboy,1,Throw,knowledge
 mame,paperboy,2,Throw,knowledge
 mame,paperboy,stick,handlebars,mame2003-plus-listxml
@@ -639,28 +639,28 @@ mame,parodius,1,Shot,knowledge
 mame,parodius,2,Missile,knowledge
 mame,parodius,3,Power Up,knowledge
 mame,parodius,stick,8-way joystick,mame2003-plus-listxml
-mame,pengo,1,Push,knowledge
+mame,pengo,1,Push,arcade-history-confirmed
 mame,pengo,stick,4-way joystick,mame2003-plus-listxml
 mame,peterpak,1,Throw,knowledge
 mame,peterpak,2,Jump,knowledge
 mame,peterpak,stick,8-way joystick,mame2003-plus-listxml
-mame,phoenix,1,Fire,knowledge
-mame,phoenix,2,Shield,knowledge
+mame,phoenix,1,Fire,arcade-history-confirmed
+mame,phoenix,2,Shield,arcade-history-confirmed
 mame,phoenix,stick,2-way joystick (left/right),mame2003-plus-listxml
 mame,pipedrm,1,Place Pipe,knowledge
 mame,pipedrm,2,Button 2,knowledge
 mame,pipedrm,stick,8-way joystick,mame2003-plus-listxml
-mame,pitfight,1,Punch,knowledge
-mame,pitfight,2,Kick,knowledge
-mame,pitfight,3,Jump,knowledge
+mame,pitfight,1,Punch,mame-source
+mame,pitfight,2,Kick,mame-source
+mame,pitfight,3,Jump/Start,mame-source
 mame,pitfight,stick,8-way joystick,mame2003-plus-listxml
 mame,polepos,1,Gear,knowledge
 mame,polepos,stick,wheel,mame2003-plus-listxml
 mame,polepos2,1,Gear,knowledge
 mame,polepos2,stick,wheel,mame2003-plus-listxml
-mame,pooyan,1,Shoot,knowledge
+mame,pooyan,1,Shoot,arcade-history-confirmed
 mame,pooyan,stick,2-way joystick (up/down),mame2003-plus-listxml
-mame,popeyef,1,Punch,knowledge
+mame,popeyef,1,Punch,arcade-history-confirmed
 mame,popeyef,stick,4-way joystick,mame2003-plus-listxml
 mame,pow,1,Punch,knowledge
 mame,pow,2,Jump,knowledge
@@ -669,8 +669,8 @@ mame,pow,stick,8-way joystick,mame2003-plus-listxml
 mame,punchout,1,Left Punch,play-tested
 mame,punchout,2,Right Punch,play-tested
 mame,punchout,3,Power Punch,play-tested
-mame,punchout,stick,4-way joystick,mame2003-plus-listxml
 mame,punchout,note,Up + punch = head punch,play-tested
+mame,punchout,stick,4-way joystick,mame2003-plus-listxml
 mame,punksht2,1,Throw,knowledge
 mame,punksht2,2,Jump,knowledge
 mame,punksht2,stick,8-way joystick,mame2003-plus-listxml
@@ -683,12 +683,12 @@ mame,puyopuya,stick,8-way joystick,mame2003-plus-listxml
 mame,puzloopu,1,Shoot,knowledge
 mame,puzloopu,2,Button 2,knowledge
 mame,puzloopu,stick,8-way joystick,mame2003-plus-listxml
-mame,qbert,stick,4-way joystick,mame2003-plus-listxml
 mame,qbert,note,Joystick only - no buttons needed,knowledge
+mame,qbert,stick,4-way joystick,mame2003-plus-listxml
 mame,qix,1,Fast Draw,knowledge
 mame,qix,2,Slow Draw,knowledge
 mame,qix,stick,4-way joystick,mame2003-plus-listxml
-mame,rallyx,1,Smoke Screen,knowledge
+mame,rallyx,1,Smoke Screen,arcade-history-confirmed
 mame,rallyx,stick,4-way joystick,mame2003-plus-listxml
 mame,rampage,1,Punch,knowledge
 mame,rampage,2,Jump,knowledge
@@ -713,8 +713,8 @@ mame,robocop,stick,8-way joystick,mame2003-plus-listxml
 mame,robocp2u,1,Fire,knowledge
 mame,robocp2u,2,Jump,knowledge
 mame,robocp2u,stick,8-way joystick,mame2003-plus-listxml
-mame,robotron,stick,dual joysticks,mame2003-plus-listxml
 mame,robotron,note,"Left stick moves, right stick fires",knowledge
+mame,robotron,stick,dual joysticks,mame2003-plus-listxml
 mame,rocnrope,1,Rope / Flash,knowledge
 mame,rocnrope,2,Button 2,knowledge
 mame,rocnrope,stick,4-way joystick,mame2003-plus-listxml
@@ -791,9 +791,9 @@ mame,shangonb,stick,handlebars,mame2003-plus-listxml
 mame,shaolins,1,Attack,knowledge
 mame,shaolins,2,Jump,knowledge
 mame,shaolins,stick,4-way joystick,mame2003-plus-listxml
-mame,shdancer,1,Attack,knowledge
-mame,shdancer,2,Jump,knowledge
-mame,shdancer,3,Ninja Magic,knowledge
+mame,shdancer,1,Attack,arcade-history-confirmed
+mame,shdancer,2,Jump,arcade-history-confirmed
+mame,shdancer,3,Ninja Magic,arcade-history-confirmed
 mame,shdancer,stick,8-way joystick,mame2003-plus-listxml
 mame,shinobi,1,Attack,knowledge
 mame,shinobi,2,Jump,knowledge
@@ -809,14 +809,14 @@ mame,sidearmr,stick,8-way joystick,mame2003-plus-listxml
 mame,simpsn2p,1,Attack,knowledge
 mame,simpsn2p,2,Jump,knowledge
 mame,simpsn2p,stick,8-way joystick,mame2003-plus-listxml
-mame,sinistar,1,Fire,knowledge
-mame,sinistar,2,Sinibomb,knowledge
+mame,sinistar,1,Fire,arcade-history-confirmed
+mame,sinistar,2,Sinibomb,arcade-history-confirmed
 mame,sinistar,stick,49-way stick,mame2003-plus-listxml
 mame,slyspy,1,Fire,knowledge
 mame,slyspy,2,Jump,knowledge
 mame,slyspy,stick,8-way joystick,mame2003-plus-listxml
-mame,smashtv,stick,dual joysticks,mame2003-plus-listxml
 mame,smashtv,note,"Left stick moves, right stick fires",knowledge
+mame,smashtv,stick,dual joysticks,mame2003-plus-listxml
 mame,snowbrob,1,Snow,knowledge
 mame,snowbrob,2,Jump,knowledge
 mame,snowbrob,stick,8-way joystick,mame2003-plus-listxml
@@ -861,7 +861,7 @@ mame,stmblade,stick,8-way joystick,mame2003-plus-listxml
 mame,superman,1,Punch / Super Blast (hold),knowledge
 mame,superman,2,Jump,knowledge
 mame,superman,stick,8-way joystick,mame2003-plus-listxml
-mame,superpac,1,Super Speed,knowledge
+mame,superpac,1,Super Speed,arcade-history-confirmed
 mame,superpac,stick,4-way joystick,mame2003-plus-listxml
 mame,tapper,1,Pour,knowledge
 mame,tapper,stick,4-way joystick,mame2003-plus-listxml
@@ -874,13 +874,13 @@ mame,thndrbdj,stick,8-way joystick,mame2003-plus-listxml
 mame,tigeroad,1,Attack,knowledge
 mame,tigeroad,2,Jump,knowledge
 mame,tigeroad,stick,8-way joystick,mame2003-plus-listxml
-mame,timeplt,1,Fire,knowledge
+mame,timeplt,1,Fire,arcade-history-confirmed
 mame,timeplt,stick,8-way joystick,mame2003-plus-listxml
 mame,tmnt22p,1,Attack,knowledge
 mame,tmnt22p,2,Jump,knowledge
 mame,tmnt22p,stick,8-way joystick,mame2003-plus-listxml
-mame,tmnt2po,1,Attack,knowledge
-mame,tmnt2po,2,Jump,knowledge
+mame,tmnt2po,1,Attack,arcade-history-confirmed
+mame,tmnt2po,2,Jump,arcade-history-confirmed
 mame,tmnt2po,stick,8-way joystick,mame2003-plus-listxml
 mame,tnzsb,1,Bubble / Fire,knowledge
 mame,tnzsb,2,Jump,knowledge
@@ -888,23 +888,23 @@ mame,tnzsb,stick,8-way joystick,mame2003-plus-listxml
 mame,tokiu,1,Fire,knowledge
 mame,tokiu,2,Jump,knowledge
 mame,tokiu,stick,8-way joystick,mame2003-plus-listxml
-mame,toobin,1,Throw,mame2003-plus-source
-mame,toobin,2,Right Paddle Fwd,mame2003-plus-source
-mame,toobin,3,Left Paddle Fwd,mame2003-plus-source
-mame,toobin,4,Left Paddle Back,mame2003-plus-source
-mame,toobin,5,Right Paddle Back,mame2003-plus-source
+mame,toobin,1,Throw,mame-source
+mame,toobin,2,R Paddle Forward,mame-source
+mame,toobin,3,L Paddle Forward,mame-source
+mame,toobin,4,L Paddle Backward,mame-source
+mame,toobin,5,R Paddle Backward,mame-source
 mame,toobin,stick,buttons only,mame2003-plus-listxml
 mame,trackfld,1,Run,knowledge
 mame,trackfld,2,Jump,knowledge
 mame,trackfld,3,Run,knowledge
-mame,trackfld,stick,buttons only,mame2003-plus-listxml
 mame,trackfld,note,Mash Run to sprint,knowledge
+mame,trackfld,stick,buttons only,mame2003-plus-listxml
 mame,trojan,1,Sword,knowledge
 mame,trojan,2,Shield,knowledge
 mame,trojan,stick,8-way joystick,mame2003-plus-listxml
 mame,tron,1,Fire,knowledge
-mame,tron,stick,8-way joystick,mame2003-plus-listxml
 mame,tron,note,Dial = aim,knowledge
+mame,tron,stick,8-way joystick,mame2003-plus-listxml
 mame,truxton2,1,Shot,knowledge
 mame,truxton2,2,Bomb,knowledge
 mame,truxton2,3,Button 3,knowledge
@@ -912,17 +912,17 @@ mame,truxton2,stick,8-way joystick,mame2003-plus-listxml
 mame,tumblep,1,Vacuum,knowledge
 mame,tumblep,2,Jump,knowledge
 mame,tumblep,stick,8-way joystick,mame2003-plus-listxml
-mame,uccops,1,Attack,knowledge
-mame,uccops,2,Jump,knowledge
+mame,uccops,1,Attack,arcade-history-confirmed
+mame,uccops,2,Jump,arcade-history-confirmed
 mame,uccops,stick,8-way joystick,mame2003-plus-listxml
-mame,umk3,1,Low Punch,mame2003-plus-source
-mame,umk3,2,Low Kick,mame2003-plus-source
-mame,umk3,3,High Punch,mame2003-plus-source
-mame,umk3,4,High Kick,mame2003-plus-source
-mame,umk3,5,Block,mame2003-plus-source
-mame,umk3,6,Run,mame2003-plus-source
+mame,umk3,1,Low Punch,mame-source
+mame,umk3,2,Low Kick,mame-source
+mame,umk3,3,High Punch,mame-source
+mame,umk3,4,High Kick,mame-source
+mame,umk3,5,Block,mame-source
+mame,umk3,6,Run,mame-source
 mame,umk3,stick,8-way joystick,mame2003-plus-listxml
-mame,upndown,1,Jump,knowledge
+mame,upndown,1,Jump,arcade-history-confirmed
 mame,upndown,stick,8-way joystick,mame2003-plus-listxml
 mame,valkyrie,1,Attack,knowledge
 mame,valkyrie,2,Magic,knowledge
@@ -947,8 +947,8 @@ mame,wb3,1,Fire,knowledge
 mame,wb3,2,Jump,knowledge
 mame,wb3,3,Button 3,knowledge
 mame,wb3,stick,8-way joystick,mame2003-plus-listxml
-mame,wbmlb,1,Attack,knowledge
-mame,wbmlb,2,Jump,knowledge
+mame,wbmlb,1,Attack,arcade-history-confirmed
+mame,wbmlb,2,Jump,arcade-history-confirmed
 mame,wbmlb,stick,8-way joystick,mame2003-plus-listxml
 mame,wboyu,1,Fire,knowledge
 mame,wboyu,2,Jump,knowledge
@@ -974,50 +974,50 @@ mame,xmultipl,2,Button 2,knowledge
 mame,xmultipl,3,Button 3,knowledge
 mame,xmultipl,4,Button 4,knowledge
 mame,xmultipl,stick,8-way joystick,mame2003-plus-listxml
-mame,zaxxon,1,Fire,knowledge
+mame,zaxxon,1,Fire,arcade-history-confirmed
 mame,zaxxon,stick,8-way joystick,mame2003-plus-listxml
 mame,zerowing,1,Fire,knowledge
 mame,zerowing,2,Bomb,knowledge
 mame,zerowing,stick,8-way joystick,mame2003-plus-listxml
 megadrive,Old-Towers,B,Action,knowledge
 megadrive,Old-Towers,note,Collect all the coins in each tower,knowledge
-mrboom,MrBoom,B,Drop bomb,knowledge
 mrboom,MrBoom,A,Detonate / jump,knowledge
+mrboom,MrBoom,B,Drop bomb,knowledge
 nes,2048 (tsone),note,Slide the tiles with the joystick - match numbers to reach 2048,knowledge
 odcommander,od-commander,note,File manager (not a game),knowledge
 pcengine,Reflectron (aetherbyte),I,Fire,knowledge
 pcengine,Reflectron (aetherbyte),II,Reflect,knowledge
 pcengine,Santatlantean (aetherbyte),I,Fire,knowledge
 pcengine,Santatlantean (aetherbyte),II,Special weapon,knowledge
-ports,MrBoom,B,Drop bomb,knowledge
 ports,MrBoom,A,Detonate / jump,knowledge
-ports,doom1_shareware,Y,Fire,knowledge
-ports,doom1_shareware,B,Use / open,knowledge
+ports,MrBoom,B,Drop bomb,knowledge
 ports,doom1_shareware,A,Run,knowledge
-ports,doom1_shareware,X,Strafe,knowledge
+ports,doom1_shareware,B,Use / open,knowledge
 ports,doom1_shareware,L,Strafe left,knowledge
 ports,doom1_shareware,R,Strafe right,knowledge
+ports,doom1_shareware,X,Strafe,knowledge
+ports,doom1_shareware,Y,Fire,knowledge
 ports,doom1_shareware,note,SELECT = map  ·  START = menu,knowledge
 ports,od-commander,note,File manager (not a game),knowledge
 ports,sdlpop,a,Action (grab / pick up),knowledge
-ports,sdlpop,pageup,Time left,knowledge
 ports,sdlpop,note,"Prince of Persia - Up = jump, Down = crouch",knowledge
-ports,smw,a,Jump,knowledge
-ports,smw,b,Power-up,knowledge
-prboom,doom1_shareware,Y,Fire,knowledge
-prboom,doom1_shareware,B,Use / open,knowledge
+ports,sdlpop,pageup,Time left,knowledge
+ports,smw,B,Jump,knowledge
+ports,smw,Y,Power-up,knowledge
 prboom,doom1_shareware,A,Run,knowledge
-prboom,doom1_shareware,X,Strafe,knowledge
+prboom,doom1_shareware,B,Use / open,knowledge
 prboom,doom1_shareware,L,Strafe left,knowledge
 prboom,doom1_shareware,R,Strafe right,knowledge
+prboom,doom1_shareware,X,Strafe,knowledge
+prboom,doom1_shareware,Y,Fire,knowledge
 prboom,doom1_shareware,note,SELECT = map  ·  START = menu,knowledge
 pygame,pygun,note,Pygame demo,knowledge
 pygame,retrotrivia,a,Answer,knowledge
 pygame,retrotrivia,note,Retro gaming trivia,knowledge
 sdlpop,sdlpop,a,Action (grab / pick up),knowledge
-sdlpop,sdlpop,pageup,Time left,knowledge
 sdlpop,sdlpop,note,"Prince of Persia - Up = jump, Down = crouch",knowledge
+sdlpop,sdlpop,pageup,Time left,knowledge
 snes,DonkeyKongClassic (Shiru),B,Jump,play-tested
 snes,DonkeyKongClassic (Shiru),note,Homebrew Donkey Kong - jump the barrels,play-tested
-superbroswar,smw,a,Jump,knowledge
-superbroswar,smw,b,Power-up,knowledge
+superbroswar,smw,B,Jump,knowledge
+superbroswar,smw,Y,Power-up,knowledge
