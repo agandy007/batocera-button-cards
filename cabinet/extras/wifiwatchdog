@@ -1,0 +1,31 @@
+#!/bin/bash
+# Batocera service: make sure Wi-Fi is connected after boot.
+# Some Wi-Fi adapters come up and go straight back down at boot and never connect until the network settings
+# are re-saved. This checks for an IPv4 address for a few minutes and nudges connman like a settings re-save would.
+# Enable:  batocera-services enable wifiwatchdog
+LOG=/var/log/wifiwatchdog.log
+has_ip() { ip -4 addr show 2>/dev/null | grep -q "inet .* scope global"; }
+case "$1" in
+  start)
+    (
+      [ "$(batocera-settings-get wifi.enabled)" = "1" ] || exit 0
+      SSID=$(batocera-settings-get wifi.ssid)
+      sleep 45
+      for try in 1 2 3 4 5 6; do
+        has_ip && { echo "$(date +%T) connected (check $try)" >> $LOG; exit 0; }
+        echo "$(date +%T) no IP - attempt $try" >> $LOG
+        if [ $try -le 3 ]; then
+          connmanctl enable wifi >/dev/null 2>&1
+          connmanctl scan wifi >/dev/null 2>&1
+          SVC=$(connmanctl services 2>/dev/null | awk -v s="$SSID" '$0 ~ s {print $NF; exit}')
+          [ -n "$SVC" ] && connmanctl connect "$SVC" >> $LOG 2>&1
+        else
+          /etc/init.d/S08connman restart >> $LOG 2>&1
+        fi
+        sleep 30
+      done
+      echo "$(date +%T) gave up" >> $LOG
+    ) &
+    ;;
+  stop) : ;;
+esac

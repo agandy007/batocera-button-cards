@@ -61,6 +61,12 @@ scp -r . root@<cabinet-ip>:/userdata/system/batocera-button-cards
 ssh root@<cabinet-ip> /userdata/system/batocera-button-cards/cabinet/install.sh
 ```
 
+## Extras
+
+- `cabinet/extras/wifiwatchdog` — optional Batocera service. Some Wi-Fi adapters come up and go straight back down at
+  boot and never connect until the network settings are re-saved; this checks for an IP address for a few minutes after
+  boot and reconnects (copy to `/userdata/system/services/`, then `batocera-services enable wifiwatchdog`).
+
 ## Button names — help wanted
 
 Button names live in **[data/community-labels.csv](data/community-labels.csv)**, one row per game and button, with the
