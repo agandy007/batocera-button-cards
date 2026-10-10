@@ -1,0 +1,28 @@
+#!/bin/bash
+# Batocera service: full-screen button-card viewer on the second display (HDMI-2).
+# Enable with: batocera-services enable cardview ; start with: batocera-services start cardview
+SOCK=/var/run/cardview.sock
+PIDFILE=/var/run/cardview.pid
+CARDS=/userdata/system/cardview/cards
+OUTPUT=$(batocera-settings-get cardview.output); [ -z "$OUTPUT" ] && OUTPUT=HDMI-2
+case "$1" in
+  start)
+    export DISPLAY=:0.0
+    # wait for X and the second screen
+    for i in $(seq 1 60); do xrandr 2>/dev/null | grep -q "^${OUTPUT} connected" && break; sleep 2; done
+    xrandr 2>/dev/null | grep -q "^${OUTPUT} connected" || exit 0
+    PRIMARY=$(xrandr | awk '/ connected primary/{print $1}')
+    xrandr --output "$OUTPUT" --auto --right-of "$PRIMARY"
+    sleep 1
+    GEOM=$(xrandr | grep "^${OUTPUT} connected" | grep -oE "[0-9]+x[0-9]+\+[0-9]+\+[0-9]+")
+    rm -f "$SOCK"
+    mpv --idle=yes --force-window=yes --no-border --geometry="$GEOM" \
+        --image-display-duration=inf --keep-open=yes --osd-level=0 \
+        --no-input-default-bindings --input-vo-keyboard=no --no-audio --title=cardview \
+        --input-ipc-server="$SOCK" "$CARDS/_default.png" >/dev/null 2>&1 &
+    echo $! > "$PIDFILE"
+    ;;
+  stop)
+    [ -f "$PIDFILE" ] && kill "$(cat $PIDFILE)" 2>/dev/null; rm -f "$PIDFILE" "$SOCK"
+    ;;
+esac

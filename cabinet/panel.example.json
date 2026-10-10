@@ -1,0 +1,11 @@
+{
+  "_comment": "Physical control panel for ONE player side, recorded by the press wizard: position -> evdev key code from the player-1 encoder. Universal: every program's button numbering is translated through these codes.",
+  "device_hint": "DragonRise",
+  "screen": {"width": 1024, "height": 600, "output": "HDMI-2"},
+  "rows": [["top-left", "top-middle", "top-right"], ["bottom-left", "bottom-middle", "bottom-right"]],
+  "above": ["above-left", "above-right"],
+  "codes": {"top-left": 299, "top-middle": 297, "top-right": 295, "bottom-left": 298, "bottom-middle": 296, "bottom-right": 294,
+            "above-left": 292, "above-right": 293},
+  "colors": {"top-left": "#1e88e5", "top-middle": "#fdd835", "top-right": "#f4f4f4", "bottom-left": "#43a047", "bottom-middle": "#e53935", "bottom-right": "#8e24aa"},
+  "confirmed": true
+}

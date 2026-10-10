@@ -1,0 +1,3794 @@
+{
+"c64/fix_it_felix_64": {
+"labels": {
+"FIRE": "Fix (hammer)"
+},
+"sources": [
+"knowledge"
+]
+},
+"gba/SpaceTwins": {
+"labels": {
+"A": "Jump",
+"B": "Switch twin"
+},
+"sources": [
+"knowledge"
+]
+},
+"mame/1942": {
+"labels": {
+"1": "Fire",
+"2": "Loop"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/1943": {
+"labels": {
+"1": "Fire",
+"2": "Loop"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/1943kai": {
+"labels": {
+"1": "Fire",
+"2": "Loop"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/720": {
+"labels": {
+"1": "Kick",
+"2": "Jump"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "rotary stick"
+},
+"mame/aburner": {
+"labels": {
+"1": "Gun",
+"2": "Missile"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "flight stick"
+},
+"mame/aburner2": {
+"labels": {
+"1": "Gun",
+"2": "Missile"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "flight stick"
+},
+"mame/actfancr": {
+"labels": {
+"1": "Fire",
+"2": "Jump"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/aerofgt": {
+"labels": {
+"1": "Fire",
+"2": "Bomb"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/airwolf": {
+"labels": {
+"1": "Fire",
+"2": "Missile"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/aliensu": {
+"labels": {
+"1": "Fire",
+"2": "Jump"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/aliensyn": {
+"labels": {
+"1": "Fire",
+"2": "Button 2",
+"3": "Button 3"
+},
+"mame_buttons": 3,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/aligatun": {
+"labels": {
+"1": "Fire",
+"2": "Jump"
+},
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/altbeast": {
+"labels": {
+"1": "Punch",
+"2": "Kick",
+"3": "Jump"
+},
+"mame_buttons": 3,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/amidar": {
+"labels": {
+"1": "Jump"
+},
+"mame_buttons": 1,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "4-way joystick"
+},
+"mame/aquajack": {
+"labels": {
+"1": "Fire",
+"2": "Missile",
+"3": "Jump",
+"4": "Button 4"
+},
+"mame_buttons": 4,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/arknoid2": {
+"labels": {
+"1": "Fire"
+},
+"mame_buttons": 1,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "spinner"
+},
+"mame/arknoidu": {
+"labels": {
+"1": "Fire"
+},
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "spinner"
+},
+"mame/asterix": {
+"labels": {
+"1": "Attack",
+"2": "Jump"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/asteroid": {
+"labels": {
+"1": "Rotate Left",
+"2": "Rotate Right",
+"3": "Fire",
+"4": "Thrust",
+"5": "Hyperspace"
+},
+"mame_buttons": 5,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "buttons only"
+},
+"mame/astormbl": {
+"labels": {
+"1": "Attack",
+"2": "Jump",
+"3": "Special"
+},
+"mame_buttons": 3,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/avspirit": {
+"labels": {
+"1": "Attack",
+"2": "Jump"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/baddudes": {
+"labels": {
+"1": "Attack",
+"2": "Jump"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/bankp": {
+"labels": {
+"1": "Shoot Left",
+"2": "Shoot Middle",
+"3": "Shoot Right"
+},
+"mame_buttons": 3,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "2-way joystick (left/right)"
+},
+"mame/batman": {
+"labels": {
+"1": "Attack",
+"2": "Jump"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/batrider": {
+"labels": {
+"1": "Shot",
+"2": "Bomb",
+"3": "Options"
+},
+"mame_buttons": 3,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/bbros": {
+"labels": {
+"1": "Fire",
+"2": "Button 2"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "4-way joystick"
+},
+"mame/berzerk1": {
+"labels": {
+"1": "Fire"
+},
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/bionicc": {
+"labels": {
+"1": "Fire",
+"2": "Bionic Arm"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/blktiger": {
+"labels": {
+"1": "Attack",
+"2": "Jump"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/blstroid": {
+"labels": {
+"1": "Fire",
+"2": "Thrust",
+"3": "Shield",
+"4": "Button 4"
+},
+"mame_buttons": 4,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "spinner"
+},
+"mame/blswhstl": {
+"labels": {
+"1": "Shot",
+"2": "Bomb"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/bnj": {
+"labels": {
+"1": "Jump"
+},
+"mame_buttons": 1,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/bogeyman": {
+"labels": {
+"1": "Fire",
+"2": "Jump"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/bombjack": {
+"labels": {
+"1": "Jump"
+},
+"mame_buttons": 1,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/btime": {
+"labels": {
+"1": "Pepper"
+},
+"mame_buttons": 1,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "4-way joystick"
+},
+"mame/btoads": {
+"labels": {
+"1": "Attack",
+"2": "Jump"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/bubbles": {
+"labels": {},
+"mame_buttons": 0,
+"note": "Joystick only - no buttons needed",
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/bubbobr1": {
+"labels": {
+"1": "Bubble / Fire",
+"2": "Jump"
+},
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/buckrog": {
+"labels": {
+"1": "Fire",
+"2": "Button 2",
+"3": "Button 3"
+},
+"mame_buttons": 3,
+"note": "Pedal = speed",
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/buckyua": {
+"labels": {
+"1": "Fire",
+"2": "Jump"
+},
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/bzone": {
+"labels": {
+"1": "Fire"
+},
+"mame_buttons": 1,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "dual tank sticks"
+},
+"mame/cabal": {
+"labels": {
+"1": "Fire",
+"2": "Grenade",
+"3": "Roll"
+},
+"mame_buttons": 3,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/candance": {
+"labels": {
+"1": "Shot",
+"2": "Jump",
+"3": "Slide"
+},
+"mame_buttons": 3,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/captavnu": {
+"labels": {
+"1": "Attack",
+"2": "Jump",
+"3": "Button 3"
+},
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/cbuster": {
+"labels": {
+"1": "Attack",
+"2": "Jump",
+"3": "Button 3"
+},
+"mame_buttons": 3,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/ccastles": {
+"labels": {
+"1": "Jump",
+"2": "Jump",
+"3": "Jump"
+},
+"mame_buttons": 3,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "trackball"
+},
+"mame/cclimber": {
+"labels": {},
+"mame_buttons": 0,
+"note": "Climb with both sticks",
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "dual joysticks"
+},
+"mame/centtime": {
+"labels": {
+"1": "Fire"
+},
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "trackball"
+},
+"mame/chasehq": {
+"labels": {
+"1": "Gear",
+"2": "Turbo",
+"3": "Button 3",
+"4": "Button 4"
+},
+"mame_buttons": 4,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "wheel"
+},
+"mame/chinagat": {
+"labels": {
+"1": "Attack",
+"2": "Jump",
+"3": "Special"
+},
+"mame_buttons": 3,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/chplftb": {
+"labels": {
+"1": "Fire",
+"2": "Bomb"
+},
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/circusc": {
+"labels": {
+"1": "Jump"
+},
+"mame_buttons": 1,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "2-way joystick (left/right)"
+},
+"mame/citycon": {
+"labels": {
+"1": "Jump",
+"2": "Oil Can"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/columns": {
+"labels": {
+"1": "Rotate"
+},
+"mame_buttons": 1,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/commandu": {
+"labels": {
+"1": "Fire",
+"2": "Grenade"
+},
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/congo": {
+"labels": {
+"1": "Jump"
+},
+"mame_buttons": 1,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/contra": {
+"labels": {
+"1": "Fire",
+"2": "Jump"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/crimfgt2": {
+"labels": {
+"1": "Punch",
+"2": "Kick"
+},
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/ctribe": {
+"labels": {
+"1": "Attack",
+"2": "Jump",
+"3": "Special"
+},
+"mame_buttons": 3,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/cyvern": {
+"labels": {
+"1": "Shot",
+"2": "Dragon Breath"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/darkseal": {
+"labels": {
+"1": "Attack",
+"2": "Magic"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/dassault": {
+"labels": {
+"1": "Fire",
+"2": "Bomb"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/dbreed": {
+"labels": {
+"1": "Fire",
+"2": "Dismount",
+"3": "Button 3",
+"4": "Button 4"
+},
+"mame_buttons": 4,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/ddcrew": {
+"labels": {
+"1": "Attack",
+"2": "Jump",
+"3": "Special"
+},
+"mame_buttons": 3,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/ddragn2u": {
+"labels": {
+"1": "Attack Left",
+"2": "Jump",
+"3": "Attack Right"
+},
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/ddragonu": {
+"labels": {
+"1": "Punch",
+"2": "Kick",
+"3": "Jump"
+},
+"mame_buttons": 3,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/deadconx": {
+"labels": {
+"1": "Shot",
+"2": "Jump"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/defendg": {
+"labels": {
+"1": "Fire",
+"2": "Thrust",
+"3": "Smart Bomb",
+"4": "Reverse",
+"5": "Hyperspace"
+},
+"note": "Original had 5 buttons",
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/digdug": {
+"labels": {
+"1": "Pump"
+},
+"mame_buttons": 1,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "4-way joystick"
+},
+"mame/digdug2": {
+"labels": {
+"1": "Pump",
+"2": "Drill"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "4-way joystick"
+},
+"mame/dkong3": {
+"labels": {
+"1": "Spray"
+},
+"mame_buttons": 1,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "4-way joystick"
+},
+"mame/dkongjr": {
+"labels": {
+"1": "Jump"
+},
+"mame_buttons": 1,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "4-way joystick"
+},
+"mame/dkongo": {
+"labels": {
+"1": "Jump"
+},
+"mame_buttons": 1,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "4-way joystick"
+},
+"mame/docastle": {
+"labels": {
+"1": "Hammer",
+"2": "Button 2"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "4-way joystick"
+},
+"mame/dogyuun": {
+"labels": {
+"1": "Shot",
+"2": "Bomb",
+"3": "Button 3"
+},
+"mame_buttons": 3,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/dondokod": {
+"labels": {
+"1": "Hammer",
+"2": "Jump"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/donpachi": {
+"labels": {
+"1": "Shot / Laser (hold)",
+"2": "Bomb",
+"3": "Button 3"
+},
+"mame_buttons": 3,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/drtoppel": {
+"labels": {
+"1": "Fire",
+"2": "Jump"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/dsaber": {
+"labels": {
+"1": "Fire",
+"2": "Bomb",
+"3": "Button 3"
+},
+"mame_buttons": 3,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/edrandy": {
+"labels": {
+"1": "Whip",
+"2": "Jump"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/elevator": {
+"labels": {
+"1": "Fire",
+"2": "Jump"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/elvactr": {
+"labels": {
+"1": "Shot",
+"2": "Jump",
+"3": "Bomb"
+},
+"mame_buttons": 4,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/endurobl": {
+"labels": {},
+"mame_buttons": 0,
+"sources": [
+"mame2003-plus-listxml"
+],
+"stick": "handlebars"
+},
+"mame/exedexes": {
+"labels": {
+"1": "Fire",
+"2": "Pow"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/fantzn2": {
+"labels": {
+"1": "Shot",
+"2": "Bomb"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/fantzone": {
+"labels": {
+"1": "Shot",
+"2": "Bomb",
+"3": "Button 3"
+},
+"mame_buttons": 3,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/flicky": {
+"labels": {
+"1": "Throw"
+},
+"mame_buttons": 1,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "2-way joystick (left/right)"
+},
+"mame/foodf": {
+"labels": {
+"1": "Throw"
+},
+"mame_buttons": 1,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "analog stick"
+},
+"mame/frogger": {
+"labels": {},
+"mame_buttons": 0,
+"note": "Joystick only - no buttons needed",
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "4-way joystick"
+},
+"mame/funkyjet": {
+"labels": {
+"1": "Attack",
+"2": "Jump",
+"3": "Button 3"
+},
+"mame_buttons": 3,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/ga2": {
+"labels": {
+"1": "Attack",
+"2": "Jump",
+"3": "Magic"
+},
+"mame_buttons": 3,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/gaiden": {
+"labels": {
+"1": "Attack",
+"2": "Jump",
+"3": "Button 3"
+},
+"mame_buttons": 3,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/galaga": {
+"labels": {
+"1": "Fire"
+},
+"mame_buttons": 1,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "2-way joystick (left/right)"
+},
+"mame/galaga88": {
+"labels": {
+"1": "Fire",
+"2": "Button 2",
+"3": "Button 3"
+},
+"mame_buttons": 3,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/galaxian": {
+"labels": {
+"1": "Fire"
+},
+"mame_buttons": 1,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "2-way joystick (left/right)"
+},
+"mame/galmedes": {
+"labels": {
+"1": "Shot",
+"2": "Bomb"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/gangwars": {
+"labels": {
+"1": "Punch",
+"2": "Kick",
+"3": "Jump"
+},
+"mame_buttons": 3,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/gaplus": {
+"labels": {
+"1": "Fire"
+},
+"mame_buttons": 1,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/gaunt22p": {
+"labels": {
+"1": "Fire",
+"2": "Magic"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/gaunt2p": {
+"labels": {
+"1": "Fire",
+"2": "Magic"
+},
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/ghostb": {
+"labels": {
+"1": "Fire",
+"2": "Capture"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/gijoeu": {
+"labels": {
+"1": "Shot",
+"2": "Jump",
+"3": "Special"
+},
+"mame_buttons": 3,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/gnbarich": {
+"labels": {
+"1": "Flipper",
+"2": "Button 2",
+"3": "Button 3"
+},
+"mame_buttons": 3,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/gngt": {
+"labels": {
+"1": "Fire",
+"2": "Jump"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/godzilla": {
+"labels": {
+"1": "Attack",
+"2": "Jump",
+"3": "Special"
+},
+"mame_buttons": 3,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/goldnaxe": {
+"labels": {
+"1": "Magic",
+"2": "Attack",
+"3": "Jump"
+},
+"mame_buttons": 3,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/gorf": {
+"labels": {
+"1": "Fire"
+},
+"mame_buttons": 1,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/gradius": {
+"labels": {
+"1": "Shot",
+"2": "Missile",
+"3": "Power Up"
+},
+"mame_buttons": 3,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/gradius2": {
+"labels": {
+"1": "Shot",
+"2": "Missile",
+"3": "Power Up"
+},
+"mame_buttons": 3,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/grdians": {
+"labels": {
+"1": "Attack",
+"2": "Jump",
+"3": "Special"
+},
+"mame_buttons": 3,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/grdius3e": {
+"labels": {
+"1": "Shot",
+"2": "Missile",
+"3": "Power Up"
+},
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/growlu": {
+"labels": {
+"1": "Attack",
+"2": "Jump",
+"3": "Special"
+},
+"mame_buttons": 3,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/gtmr2": {
+"labels": {
+"1": "Accelerate",
+"2": "Brake",
+"3": "Gear Up",
+"4": "Gear Down"
+},
+"mame_buttons": 8,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/gunbird2": {
+"labels": {
+"1": "Shot",
+"2": "Bomb",
+"3": "Melee"
+},
+"mame_buttons": 3,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/gunforc2": {
+"labels": {
+"1": "Fire",
+"2": "Jump"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/gunlock": {
+"labels": {
+"1": "Fire",
+"2": "Lock-on",
+"3": "Button 3",
+"4": "Button 4"
+},
+"mame_buttons": 4,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/gunnail": {
+"labels": {
+"1": "Shot",
+"2": "Bomb"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/gunsmoku": {
+"labels": {
+"1": "Shoot Left",
+"2": "Shoot Up",
+"3": "Shoot Right"
+},
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/guwange": {
+"labels": {
+"1": "Shot / Shikigami (hold)",
+"2": "Bomb",
+"3": "Button 3"
+},
+"mame_buttons": 3,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/gyruss": {
+"labels": {
+"1": "Fire"
+},
+"mame_buttons": 1,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "2-way joystick (left/right)"
+},
+"mame/hangon": {
+"labels": {},
+"mame_buttons": 0,
+"sources": [
+"mame2003-plus-listxml"
+],
+"stick": "handlebars"
+},
+"mame/hattrick": {
+"labels": {
+"1": "Shoot"
+},
+"mame_buttons": 1,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/heatbrlu": {
+"labels": {
+"1": "Fire",
+"2": "Jump"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/hharryu": {
+"labels": {
+"1": "Hammer",
+"2": "Jump",
+"3": "Button 3",
+"4": "Button 4"
+},
+"mame_buttons": 4,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/hooku": {
+"labels": {
+"1": "Attack",
+"2": "Jump"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/horizon": {
+"labels": {
+"1": "Fire",
+"2": "Bomb"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/hvysmsh": {
+"labels": {
+"1": "Shoot / Pass",
+"2": "Jump",
+"3": "Block"
+},
+"mame_buttons": 3,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/ikari3nr": {
+"labels": {
+"1": "Punch / Fire",
+"2": "Kick",
+"3": "Grenade"
+},
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/ikarijpb": {
+"labels": {
+"1": "Fire",
+"2": "Grenade"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/inthunt": {
+"labels": {
+"1": "Fire",
+"2": "Bomb"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/invaders": {
+"labels": {
+"1": "Fire"
+},
+"mame_buttons": 1,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "2-way joystick (left/right)"
+},
+"mame/irobot": {
+"labels": {
+"1": "Fire",
+"2": "Start / Jump"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "flight stick"
+},
+"mame/jailbrek": {
+"labels": {
+"1": "Fire",
+"2": "Weapon"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/journey": {
+"labels": {
+"1": "Fire"
+},
+"mame_buttons": 1,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "4-way joystick"
+},
+"mame/joust": {
+"labels": {
+"1": "Flap"
+},
+"mame_buttons": 1,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "2-way joystick (left/right)"
+},
+"mame/jungleh": {
+"labels": {
+"1": "Jump / Knife"
+},
+"mame_buttons": 1,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/junofrst": {
+"labels": {
+"1": "Fire",
+"2": "Warp",
+"3": "Button 3"
+},
+"mame_buttons": 3,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/karnov": {
+"labels": {
+"1": "Fire",
+"2": "Jump",
+"3": "Item"
+},
+"mame_buttons": 3,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/kchamp": {
+"labels": {},
+"mame_buttons": 0,
+"note": "Two joysticks, no buttons",
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "dual joysticks"
+},
+"mame/kick": {
+"labels": {
+"1": "Kick"
+},
+"mame_buttons": 1,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "spinner"
+},
+"mame/klax": {
+"labels": {
+"1": "Flip"
+},
+"mame_buttons": 1,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "4-way joystick"
+},
+"mame/kungfum": {
+"labels": {
+"1": "Kick",
+"2": "Punch"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/landmkrp": {
+"labels": {
+"1": "Rotate",
+"2": "Button 2"
+},
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/ldrun": {
+"labels": {
+"1": "Dig Left",
+"2": "Dig Right"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/ldrun2": {
+"labels": {
+"1": "Dig Left",
+"2": "Dig Right"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/ldrun4": {
+"labels": {
+"1": "Dig Left",
+"2": "Dig Right"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/lethalth": {
+"labels": {
+"1": "Fire",
+"2": "Special"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/lifefrce": {
+"labels": {
+"1": "Shot",
+"2": "Missile"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/liquidk": {
+"labels": {
+"1": "Water Bomb",
+"2": "Jump"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/lkage": {
+"labels": {
+"1": "Sword",
+"2": "Shuriken"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/llander": {
+"labels": {
+"1": "Abort",
+"2": "Rotate Left",
+"3": "Rotate Right"
+},
+"mame_buttons": 3,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "thrust lever"
+},
+"mame/loht": {
+"labels": {
+"1": "Fire",
+"2": "Jump",
+"3": "Button 3",
+"4": "Button 4"
+},
+"mame_buttons": 4,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/looping": {
+"labels": {
+"1": "Fire",
+"2": "Accelerate"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "2-way joystick (up/down)"
+},
+"mame/lwings": {
+"labels": {
+"1": "Fire",
+"2": "Bomb"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/macross": {
+"labels": {
+"1": "Fire",
+"2": "Bomb"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/macross2": {
+"labels": {
+"1": "Fire",
+"2": "Bomb"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/macrossp": {
+"labels": {
+"1": "Shot",
+"2": "Bomb",
+"3": "Change",
+"4": "Button 4"
+},
+"mame_buttons": 4,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/mainev2p": {
+"labels": {
+"1": "Punch",
+"2": "Grab"
+},
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/mappy": {
+"labels": {
+"1": "Door"
+},
+"mame_buttons": 1,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "2-way joystick (left/right)"
+},
+"mame/marble": {
+"labels": {},
+"mame_buttons": 0,
+"sources": [
+"mame2003-plus-listxml"
+],
+"stick": "trackball"
+},
+"mame/mario": {
+"labels": {
+"1": "Jump"
+},
+"mame_buttons": 1,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "2-way joystick (left/right)"
+},
+"mame/mazinger": {
+"labels": {
+"1": "Attack",
+"2": "Jump",
+"3": "Bomb"
+},
+"mame_buttons": 3,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/metamrph": {
+"labels": {
+"1": "Attack",
+"2": "Jump",
+"3": "Metamorph"
+},
+"mame_buttons": 3,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/metmqstr": {
+"labels": {
+"1": "Attack",
+"2": "Jump",
+"3": "Button 3",
+"4": "Button 4"
+},
+"mame_buttons": 4,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/mgcrystl": {
+"labels": {
+"1": "Attack",
+"2": "Jump"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/mhavoc": {
+"labels": {
+"1": "Fire",
+"2": "Shield"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "spinner"
+},
+"mame/milliped": {
+"labels": {
+"1": "Fire"
+},
+"mame_buttons": 1,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "trackball"
+},
+"mame/missile": {
+"labels": {
+"1": "Left Base",
+"2": "Center Base",
+"3": "Right Base"
+},
+"mame_buttons": 3,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "trackball"
+},
+"mame/mk": {
+"labels": {
+"1": "Low Punch",
+"2": "Low Kick",
+"3": "High Punch",
+"4": "High Kick",
+"5": "Block",
+"6": "Block"
+},
+"mame_buttons": 6,
+"sources": [
+"mame2003-plus-listxml",
+"mame2003-plus-source"
+],
+"stick": "8-way joystick"
+},
+"mame/mk2": {
+"labels": {
+"1": "Low Punch",
+"2": "Low Kick",
+"3": "High Punch",
+"4": "High Kick",
+"5": "Block",
+"6": "Block"
+},
+"mame_buttons": 6,
+"note": "Down + high punch = uppercut",
+"sources": [
+"mame2003-plus-listxml",
+"mame2003-plus-source"
+],
+"stick": "8-way joystick"
+},
+"mame/mk3": {
+"labels": {
+"1": "Low Punch",
+"2": "Low Kick",
+"3": "High Punch",
+"4": "High Kick",
+"5": "Block",
+"6": "Run"
+},
+"mame_buttons": 6,
+"sources": [
+"mame2003-plus-listxml",
+"mame2003-plus-source"
+],
+"stick": "8-way joystick"
+},
+"mame/monsterb": {
+"labels": {
+"1": "Fire"
+},
+"mame_buttons": 1,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "4-way joystick"
+},
+"mame/moonwlkb": {
+"labels": {
+"1": "Dance Attack",
+"2": "Button 2"
+},
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/mooua": {
+"labels": {
+"1": "Attack",
+"2": "Jump"
+},
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/mpatrol": {
+"labels": {
+"1": "Fire",
+"2": "Jump"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "2-way joystick (left/right)"
+},
+"mame/mrdo": {
+"labels": {
+"1": "Throw Ball"
+},
+"mame_buttons": 1,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "4-way joystick"
+},
+"mame/mspacman": {
+"labels": {},
+"mame_buttons": 0,
+"note": "Joystick only - no buttons needed",
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "4-way joystick"
+},
+"mame/mystwaru": {
+"labels": {
+"1": "Attack",
+"2": "Jump"
+},
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/narc": {
+"labels": {
+"1": "Fire",
+"2": "Rocket",
+"3": "Jump",
+"4": "Duck"
+},
+"mame_buttons": 4,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/nbajam": {
+"labels": {
+"1": "Turbo",
+"2": "Shoot",
+"3": "Pass"
+},
+"mame_buttons": 3,
+"sources": [
+"mame2003-plus-listxml",
+"play-tested"
+],
+"stick": "8-way joystick"
+},
+"mame/nbajamte": {
+"labels": {
+"1": "Turbo",
+"2": "Shoot",
+"3": "Pass"
+},
+"mame_buttons": 3,
+"sources": [
+"mame2003-plus-listxml",
+"play-tested"
+],
+"stick": "8-way joystick"
+},
+"mame/nbbatman": {
+"labels": {
+"1": "Attack",
+"2": "Jump"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/nibbler": {
+"labels": {},
+"mame_buttons": 0,
+"note": "Joystick only - no buttons needed",
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "4-way joystick"
+},
+"mame/ninjak": {
+"labels": {
+"1": "Attack",
+"2": "Jump"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/ninjakd2": {
+"labels": {
+"1": "Attack",
+"2": "Jump"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/nitrobal": {
+"labels": {
+"1": "Fire",
+"2": "Jump"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/noboranb": {
+"labels": {
+"1": "Button 1",
+"2": "Button 2"
+},
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/nrallyx": {
+"labels": {
+"1": "Smoke Screen"
+},
+"mame_buttons": 1,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "4-way joystick"
+},
+"mame/nslasher": {
+"labels": {
+"1": "Attack",
+"2": "Jump",
+"3": "Special"
+},
+"mame_buttons": 3,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/offroad": {
+"labels": {
+"1": "Nitro"
+},
+"mame_buttons": 1,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "wheel"
+},
+"mame/outfxies": {
+"labels": {
+"1": "Attack",
+"2": "Jump",
+"3": "Pick up"
+},
+"mame_buttons": 3,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/outrunb": {
+"labels": {
+"1": "Gear"
+},
+"mame_buttons": 1,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "wheel"
+},
+"mame/outzone": {
+"labels": {
+"1": "Fire",
+"2": "Bomb",
+"3": "Change Weapon"
+},
+"mame_buttons": 3,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/pacland": {
+"labels": {
+"1": "Jump",
+"2": "Left",
+"3": "Right"
+},
+"mame_buttons": 3,
+"note": "Run with the side buttons",
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "buttons only"
+},
+"mame/pacman": {
+"labels": {},
+"mame_buttons": 0,
+"note": "Joystick only - no buttons needed",
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "4-way joystick"
+},
+"mame/paperboy": {
+"labels": {
+"1": "Throw",
+"2": "Throw"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "handlebars"
+},
+"mame/parodius": {
+"labels": {
+"1": "Shot",
+"2": "Missile",
+"3": "Power Up"
+},
+"mame_buttons": 3,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/pengo": {
+"labels": {
+"1": "Push"
+},
+"mame_buttons": 1,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "4-way joystick"
+},
+"mame/peterpak": {
+"labels": {
+"1": "Throw",
+"2": "Jump"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/phoenix": {
+"labels": {
+"1": "Fire",
+"2": "Shield"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "2-way joystick (left/right)"
+},
+"mame/pipedrm": {
+"labels": {
+"1": "Place Pipe",
+"2": "Button 2"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/pitfight": {
+"labels": {
+"1": "Punch",
+"2": "Kick",
+"3": "Jump"
+},
+"mame_buttons": 3,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/polepos": {
+"labels": {
+"1": "Gear"
+},
+"mame_buttons": 1,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "wheel"
+},
+"mame/polepos2": {
+"labels": {
+"1": "Gear"
+},
+"mame_buttons": 1,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "wheel"
+},
+"mame/pooyan": {
+"labels": {
+"1": "Shoot"
+},
+"mame_buttons": 1,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "2-way joystick (up/down)"
+},
+"mame/popeyef": {
+"labels": {
+"1": "Punch"
+},
+"mame_buttons": 1,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "4-way joystick"
+},
+"mame/pow": {
+"labels": {
+"1": "Punch",
+"2": "Jump",
+"3": "Kick"
+},
+"mame_buttons": 3,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/punchout": {
+"labels": {
+"1": "Left Punch",
+"2": "Right Punch",
+"3": "Power Punch"
+},
+"mame_buttons": 3,
+"note": "Up + punch = head punch",
+"sources": [
+"mame2003-plus-listxml",
+"play-tested"
+],
+"stick": "4-way joystick"
+},
+"mame/punksht2": {
+"labels": {
+"1": "Throw",
+"2": "Jump"
+},
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/puyopuy2": {
+"labels": {
+"1": "Rotate Left",
+"2": "Rotate Right"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/puyopuya": {
+"labels": {
+"1": "Rotate Left",
+"2": "Rotate Right"
+},
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/puzloopu": {
+"labels": {
+"1": "Shoot",
+"2": "Button 2"
+},
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/qbert": {
+"labels": {},
+"mame_buttons": 0,
+"note": "Joystick only - no buttons needed",
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "4-way joystick"
+},
+"mame/qix": {
+"labels": {
+"1": "Fast Draw",
+"2": "Slow Draw"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "4-way joystick"
+},
+"mame/rallyx": {
+"labels": {
+"1": "Smoke Screen"
+},
+"mame_buttons": 1,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "4-way joystick"
+},
+"mame/rampage": {
+"labels": {
+"1": "Punch",
+"2": "Jump"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/ramprt2p": {
+"labels": {
+"1": "Punch",
+"2": "Jump"
+},
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/rastanu": {
+"labels": {
+"1": "Attack",
+"2": "Jump"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/renegade": {
+"labels": {
+"1": "Attack Left",
+"2": "Jump",
+"3": "Attack Right"
+},
+"mame_buttons": 3,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/ringking": {
+"labels": {
+"1": "Punch",
+"2": "Guard",
+"3": "Button 3"
+},
+"mame_buttons": 3,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/robocop": {
+"labels": {
+"1": "Fire",
+"2": "Jump"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/robocp2u": {
+"labels": {
+"1": "Fire",
+"2": "Jump"
+},
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/robotron": {
+"labels": {},
+"mame_buttons": 0,
+"note": "Left stick moves, right stick fires",
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "dual joysticks"
+},
+"mame/rocnrope": {
+"labels": {
+"1": "Rope / Flash",
+"2": "Button 2"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "4-way joystick"
+},
+"mame/rohgau": {
+"labels": {
+"1": "Shot",
+"2": "Jump / Change",
+"3": "Bomb"
+},
+"mame_buttons": 3,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/rthun2": {
+"labels": {
+"1": "Fire",
+"2": "Jump",
+"3": "Button 3"
+},
+"mame_buttons": 3,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/rthunder": {
+"labels": {
+"1": "Fire",
+"2": "Jump"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "4-way joystick"
+},
+"mame/rtype2": {
+"labels": {
+"1": "Fire (hold = beam)",
+"2": "Force",
+"3": "Button 3",
+"4": "Button 4"
+},
+"mame_buttons": 4,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/rtypeleo": {
+"labels": {
+"1": "Fire",
+"2": "Psy-Bit"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/rtypeu": {
+"labels": {
+"1": "Fire (hold = beam)",
+"2": "Force",
+"3": "Button 3",
+"4": "Button 4"
+},
+"mame_buttons": 4,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/rushatck": {
+"labels": {
+"1": "Knife",
+"2": "Weapon"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/rygar": {
+"labels": {
+"1": "Attack",
+"2": "Jump"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/s1945": {
+"labels": {
+"1": "Shot",
+"2": "Bomb",
+"3": "Button 3"
+},
+"mame_buttons": 3,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/s1945ii": {
+"labels": {
+"1": "Shot",
+"2": "Bomb"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/s1945iii": {
+"labels": {
+"1": "Shot",
+"2": "Bomb",
+"3": "Button 3"
+},
+"mame_buttons": 3,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/samuraia": {
+"labels": {
+"1": "Shot",
+"2": "Bomb",
+"3": "Button 3"
+},
+"mame_buttons": 3,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/scontra": {
+"labels": {
+"1": "Fire",
+"2": "Jump"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/seawolf": {
+"labels": {
+"1": "Fire"
+},
+"mame_buttons": 1,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "periscope"
+},
+"mame/seganinu": {
+"labels": {
+"1": "Shuriken",
+"2": "Jump"
+},
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/sf1us": {
+"labels": {
+"1": "Light Punch",
+"2": "Medium Punch",
+"3": "Heavy Punch",
+"4": "Light Kick",
+"5": "Medium Kick",
+"6": "Heavy Kick"
+},
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/shadfrce": {
+"labels": {
+"1": "Attack",
+"2": "Jump",
+"3": "Button 3",
+"4": "Button 4",
+"5": "Button 5",
+"6": "Button 6"
+},
+"mame_buttons": 6,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/shangonb": {
+"labels": {
+"1": "Accelerate",
+"2": "Brake"
+},
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "handlebars"
+},
+"mame/shaolins": {
+"labels": {
+"1": "Attack",
+"2": "Jump"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "4-way joystick"
+},
+"mame/shdancer": {
+"labels": {
+"1": "Attack",
+"2": "Jump",
+"3": "Ninja Magic"
+},
+"mame_buttons": 3,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/shinobi": {
+"labels": {
+"1": "Attack",
+"2": "Jump",
+"3": "Ninja Magic"
+},
+"mame_buttons": 3,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/shollow": {
+"labels": {
+"1": "Fire",
+"2": "Shield"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "2-way joystick (left/right)"
+},
+"mame/sidearmr": {
+"labels": {
+"1": "Fire Left",
+"2": "Fire Right",
+"3": "Weapon"
+},
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/simpsn2p": {
+"labels": {
+"1": "Attack",
+"2": "Jump"
+},
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/sinistar": {
+"labels": {
+"1": "Fire",
+"2": "Sinibomb"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "49-way stick"
+},
+"mame/slyspy": {
+"labels": {
+"1": "Fire",
+"2": "Jump"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/smashtv": {
+"labels": {},
+"mame_buttons": 0,
+"note": "Left stick moves, right stick fires",
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "dual joysticks"
+},
+"mame/snowbrob": {
+"labels": {
+"1": "Snow",
+"2": "Jump"
+},
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/sonic": {
+"labels": {
+"1": "Jump"
+},
+"mame_buttons": 1,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "trackball"
+},
+"mame/sonson": {
+"labels": {
+"1": "Fire"
+},
+"mame_buttons": 1,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "4-way joystick"
+},
+"mame/spidey": {
+"labels": {
+"1": "Attack",
+"2": "Jump"
+},
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/splatter": {
+"labels": {
+"1": "Attack",
+"2": "Jump",
+"3": "Button 3"
+},
+"mame_buttons": 3,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/spnchout": {
+"labels": {
+"1": "Left Punch",
+"2": "Right Punch",
+"3": "KO Punch",
+"4": "Duck"
+},
+"mame_buttons": 4,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "4-way joystick"
+},
+"mame/spyhunt": {
+"labels": {
+"1": "Machine Gun",
+"2": "Missile",
+"3": "Oil Slick",
+"4": "Smoke Screen",
+"5": "Weapons Van"
+},
+"mame_buttons": 5,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "wheel"
+},
+"mame/ssprint": {
+"labels": {},
+"mame_buttons": 0,
+"sources": [
+"mame2003-plus-listxml"
+],
+"stick": "wheel"
+},
+"mame/ssrdrubc": {
+"labels": {
+"1": "Fire",
+"2": "Jump"
+},
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/starwars": {
+"labels": {
+"1": "Fire",
+"2": "Fire",
+"3": "Fire",
+"4": "Fire"
+},
+"mame_buttons": 4,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "flight yoke"
+},
+"mame/stdragon": {
+"labels": {
+"1": "Fire",
+"2": "Bomb"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/stmblade": {
+"labels": {
+"1": "Shot",
+"2": "Bomb",
+"3": "Button 3"
+},
+"mame_buttons": 3,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/superman": {
+"labels": {
+"1": "Punch / Super Blast (hold)",
+"2": "Jump"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/superpac": {
+"labels": {
+"1": "Super Speed"
+},
+"mame_buttons": 1,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "4-way joystick"
+},
+"mame/tapper": {
+"labels": {
+"1": "Pour"
+},
+"mame_buttons": 1,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "4-way joystick"
+},
+"mame/tempest": {
+"labels": {
+"1": "Fire",
+"2": "Superzapper"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "spinner"
+},
+"mame/thndrbdj": {
+"labels": {
+"1": "Fire",
+"2": "Jump"
+},
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/tigeroad": {
+"labels": {
+"1": "Attack",
+"2": "Jump"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/timeplt": {
+"labels": {
+"1": "Fire"
+},
+"mame_buttons": 1,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/tmnt22p": {
+"labels": {
+"1": "Attack",
+"2": "Jump"
+},
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/tmnt2po": {
+"labels": {
+"1": "Attack",
+"2": "Jump"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/tnzsb": {
+"labels": {
+"1": "Bubble / Fire",
+"2": "Jump"
+},
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/tokiu": {
+"labels": {
+"1": "Fire",
+"2": "Jump"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/toobin": {
+"labels": {
+"1": "Throw",
+"2": "Right Paddle Fwd",
+"3": "Left Paddle Fwd",
+"4": "Left Paddle Back",
+"5": "Right Paddle Back"
+},
+"mame_buttons": 5,
+"sources": [
+"mame2003-plus-listxml",
+"mame2003-plus-source"
+],
+"stick": "buttons only"
+},
+"mame/trackfld": {
+"labels": {
+"1": "Run",
+"2": "Jump",
+"3": "Run"
+},
+"mame_buttons": 3,
+"note": "Mash Run to sprint",
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "buttons only"
+},
+"mame/trojan": {
+"labels": {
+"1": "Sword",
+"2": "Shield"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/tron": {
+"labels": {
+"1": "Fire"
+},
+"mame_buttons": 1,
+"note": "Dial = aim",
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/truxton2": {
+"labels": {
+"1": "Shot",
+"2": "Bomb",
+"3": "Button 3"
+},
+"mame_buttons": 3,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/tumblep": {
+"labels": {
+"1": "Vacuum",
+"2": "Jump"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/uccops": {
+"labels": {
+"1": "Attack",
+"2": "Jump"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/umk3": {
+"labels": {
+"1": "Low Punch",
+"2": "Low Kick",
+"3": "High Punch",
+"4": "High Kick",
+"5": "Block",
+"6": "Run"
+},
+"mame_buttons": 6,
+"sources": [
+"mame2003-plus-listxml",
+"mame2003-plus-source"
+],
+"stick": "8-way joystick"
+},
+"mame/upndown": {
+"labels": {
+"1": "Jump"
+},
+"mame_buttons": 1,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/valkyrie": {
+"labels": {
+"1": "Attack",
+"2": "Magic",
+"3": "Button 3"
+},
+"mame_buttons": 3,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/vball": {
+"labels": {
+"1": "Hit",
+"2": "Jump"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/vendet2p": {
+"labels": {
+"1": "Punch",
+"2": "Kick"
+},
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/vigilntu": {
+"labels": {
+"1": "Punch",
+"2": "Kick"
+},
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/viostorm": {
+"labels": {
+"1": "Punch",
+"2": "Kick",
+"3": "Jump"
+},
+"mame_buttons": 3,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/volfied": {
+"labels": {
+"1": "Cut"
+},
+"mame_buttons": 1,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "4-way joystick"
+},
+"mame/wb3": {
+"labels": {
+"1": "Fire",
+"2": "Jump",
+"3": "Button 3"
+},
+"mame_buttons": 3,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/wbmlb": {
+"labels": {
+"1": "Attack",
+"2": "Jump"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/wboyu": {
+"labels": {
+"1": "Fire",
+"2": "Jump"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "2-way joystick (left/right)"
+},
+"mame/wildfang": {
+"labels": {
+"1": "Attack",
+"2": "Jump",
+"3": "Button 3"
+},
+"mame_buttons": 3,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/wow": {
+"labels": {
+"1": "Fire",
+"2": "Button 2"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/xevious": {
+"labels": {
+"1": "Air Zapper",
+"2": "Blaster Bomb"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/xexex": {
+"labels": {
+"1": "Shot",
+"2": "Flint"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/xmen2p": {
+"labels": {
+"1": "Attack",
+"2": "Jump"
+},
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/xmultipl": {
+"labels": {
+"1": "Fire",
+"2": "Button 2",
+"3": "Button 3",
+"4": "Button 4"
+},
+"mame_buttons": 4,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/zaxxon": {
+"labels": {
+"1": "Fire"
+},
+"mame_buttons": 1,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"mame/zerowing": {
+"labels": {
+"1": "Fire",
+"2": "Bomb"
+},
+"mame_buttons": 2,
+"sources": [
+"knowledge",
+"mame2003-plus-listxml"
+],
+"stick": "8-way joystick"
+},
+"megadrive/Old-Towers": {
+"labels": {
+"B": "Action"
+},
+"note": "Collect all the coins in each tower",
+"sources": [
+"knowledge"
+]
+},
+"mrboom/MrBoom": {
+"labels": {
+"A": "Detonate / jump",
+"B": "Drop bomb"
+},
+"sources": [
+"knowledge"
+]
+},
+"nes/2048 (tsone)": {
+"labels": {},
+"note": "Slide the tiles with the joystick - match numbers to reach 2048",
+"sources": [
+"knowledge"
+]
+},
+"odcommander/od-commander": {
+"labels": {},
+"note": "File manager (not a game)",
+"sources": [
+"knowledge"
+]
+},
+"pcengine/Reflectron (aetherbyte)": {
+"labels": {
+"I": "Fire",
+"II": "Reflect"
+},
+"sources": [
+"knowledge"
+]
+},
+"pcengine/Santatlantean (aetherbyte)": {
+"labels": {
+"I": "Fire",
+"II": "Special weapon"
+},
+"sources": [
+"knowledge"
+]
+},
+"ports/MrBoom": {
+"labels": {
+"A": "Detonate / jump",
+"B": "Drop bomb"
+},
+"sources": [
+"knowledge"
+]
+},
+"ports/doom1_shareware": {
+"labels": {
+"A": "Run",
+"B": "Use / open",
+"L": "Strafe left",
+"R": "Strafe right",
+"X": "Strafe",
+"Y": "Fire"
+},
+"note": "SELECT = map  ·  START = menu",
+"sources": [
+"knowledge"
+]
+},
+"ports/od-commander": {
+"labels": {},
+"note": "File manager (not a game)",
+"sources": [
+"knowledge"
+]
+},
+"ports/sdlpop": {
+"labels": {
+"a": "Action (grab / pick up)",
+"pageup": "Time left"
+},
+"note": "Prince of Persia - Up = jump, Down = crouch",
+"sources": [
+"knowledge"
+]
+},
+"ports/smw": {
+"labels": {
+"a": "Jump",
+"b": "Power-up"
+},
+"sources": [
+"knowledge"
+]
+},
+"prboom/doom1_shareware": {
+"labels": {
+"A": "Run",
+"B": "Use / open",
+"L": "Strafe left",
+"R": "Strafe right",
+"X": "Strafe",
+"Y": "Fire"
+},
+"note": "SELECT = map  ·  START = menu",
+"sources": [
+"knowledge"
+]
+},
+"pygame/pygun": {
+"labels": {},
+"note": "Pygame demo",
+"sources": [
+"knowledge"
+]
+},
+"pygame/retrotrivia": {
+"labels": {
+"a": "Answer"
+},
+"note": "Retro gaming trivia",
+"sources": [
+"knowledge"
+]
+},
+"sdlpop/sdlpop": {
+"labels": {
+"a": "Action (grab / pick up)",
+"pageup": "Time left"
+},
+"note": "Prince of Persia - Up = jump, Down = crouch",
+"sources": [
+"knowledge"
+]
+},
+"snes/DonkeyKongClassic (Shiru)": {
+"labels": {
+"B": "Jump"
+},
+"note": "Homebrew Donkey Kong - jump the barrels",
+"sources": [
+"play-tested"
+]
+},
+"superbroswar/smw": {
+"labels": {
+"a": "Jump",
+"b": "Power-up"
+},
+"sources": [
+"knowledge"
+]
+}
+}

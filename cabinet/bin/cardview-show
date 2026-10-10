@@ -1,0 +1,101 @@
+#!/usr/bin/python3
+"""cardview-show [args...]  -> show the card for the game named in the args (system/default card otherwise).
+Accepts EmulationStation event args in any order: finds a ROM path under /userdata/roms/<system>/,
+so it works from collections (All Games, Favorites) too. Newest request always wins (sequence check)."""
+import fcntl, json, os, re, socket, sys, time
+CARDS = "/userdata/system/cardview/cards"
+SOCK = "/var/run/cardview.sock"
+SEQ = "/var/run/cardview.seq"
+args = sys.argv[1:]
+phase = "game"
+if args and args[0].startswith("--phase="):
+    phase = args.pop(0).split("=", 1)[1]   # browse | game
+LAST = "/var/run/cardview.last"   # last launched game (game-end events carry no game)
+system = rom = ""
+
+
+def unescape(t):
+    return re.sub(r"\\(.)", r"\1", t)   # game-start sends shell-escaped paths: My\ Game\ \(USA\).sfc
+
+
+# ROM path: may arrive split on spaces and/or shell-escaped -> rebuild until the file exists
+for i, a in enumerate(args):
+    if a.startswith("/userdata/roms/"):
+        path = ""
+        for j in range(i, len(args)):
+            path = (path + " " + args[j]) if path else args[j]
+            for cand_path in (path, unescape(path)):
+                if os.path.exists(cand_path):
+                    parts = cand_path.split("/")
+                    system, rom = parts[3], os.path.splitext(parts[-1])[0]
+                    break
+            if rom:
+                break
+        if not rom:   # file not found: best effort from the first piece
+            parts = unescape(a).split("/")
+            if len(parts) > 4:
+                system, rom = parts[3], os.path.splitext(parts[-1])[0]
+        break
+if rom and phase == "game":
+    try:
+        open(LAST, "w").write(f"{system}\n{rom}\n")
+    except OSError:
+        pass
+if not rom and phase == "browse" and not args and os.path.exists(LAST):   # back from a game
+    system, rom = (open(LAST).read().split("\n") + ["", ""])[:2]
+if not system and args:
+    system = args[0]
+cand = f"{CARDS}/_default.png"
+want = [f"{CARDS}/{system}/{rom}.browse.png"] if (rom and phase == "browse") else []
+want += [f"{CARDS}/{system}/{rom}.png" if rom else "", f"{CARDS}/{system}/_system.png"]
+for c in want:
+    if c and os.path.exists(c):
+        cand = c
+        break
+OUTPUT = "HDMI-2"  # second screen used for the cards
+
+
+def screen_state():
+    """-> 'active', 'off' (connected but disabled) or 'absent'."""
+    import subprocess
+    env = {**os.environ, "DISPLAY": os.environ.get("DISPLAY", ":0.0")}
+    try:
+        full = subprocess.run(["xrandr"], capture_output=True, text=True, timeout=3, env=env).stdout
+        active = subprocess.run(["xrandr", "--listactivemonitors"], capture_output=True, text=True, timeout=3, env=env).stdout
+    except Exception:
+        return "active"  # can't tell - don't interfere
+    if f"{OUTPUT} connected" not in full:
+        return "absent"
+    return "active" if OUTPUT in active else "off"
+
+
+def recover():
+    """Restart the viewer once, in the background (it re-enables the 2nd screen and reopens the window)."""
+    import subprocess
+    subprocess.Popen(["/bin/sh", "-c", "exec 9>/var/run/cardview.recover; flock -n 9 || exit 0; "
+                      "batocera-services stop cardview; sleep 1; batocera-services start cardview"],
+                     stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, start_new_session=True)
+
+
+state = screen_state()
+if state == "absent":
+    sys.exit(0)
+if state == "off":
+    recover()
+    sys.exit(0)
+
+if os.environ.get("CARDVIEW_DEBUG"):
+    print("phase", phase, "| system", system, "| rom", rom, "| card", cand)
+# sequence: remember when this request was made; only send if no newer request arrived meanwhile
+me = time.monotonic_ns()
+with open(SEQ, "a+") as f:
+    fcntl.flock(f, fcntl.LOCK_EX)
+    f.seek(0); last = f.read().strip()
+    if last and int(last) > me:
+        sys.exit(0)
+    f.seek(0); f.truncate(); f.write(str(me))
+    try:
+        s = socket.socket(socket.AF_UNIX); s.settimeout(1); s.connect(SOCK)
+        s.sendall((json.dumps({"command": ["loadfile", cand, "replace"]}) + "\n").encode()); s.close()
+    except OSError:
+        recover()  # screen is on but the viewer is gone - bring it back

@@ -1,0 +1,33 @@
+{
+  "_comment": "Per emulator core: RetroPad button -> the name printed on the original controller/cabinet. Written once per core; reused on every cabinet. Keys are RetroArch RetroPad names (b a y x l r select start).",
+  "cores": {
+    "mame078plus":   {"label": "Arcade",            "buttons": {"b": "1", "a": "2", "y": "3", "x": "4", "l": "5", "r": "6", "select": "COIN", "start": "START"}, "verified": "B1-B3 play-tested 2026-10-09"},
+    "mame":          {"label": "Arcade",            "buttons": {"b": "1", "a": "2", "y": "3", "x": "4", "l": "5", "r": "6", "select": "COIN", "start": "START"}},
+    "fbneo":         {"label": "Arcade",            "buttons": {"b": "1", "a": "2", "y": "3", "x": "4", "l": "5", "r": "6", "select": "COIN", "start": "START"}},
+    "snes9x":        {"label": "Super Nintendo",    "buttons": {"b": "B", "a": "A", "y": "Y", "x": "X", "l": "L", "r": "R", "select": "SELECT", "start": "START"}},
+    "fceumm":        {"label": "NES",               "buttons": {"b": "B", "a": "A", "select": "SELECT", "start": "START"}},
+    "nestopia":      {"label": "NES",               "buttons": {"b": "B", "a": "A", "select": "SELECT", "start": "START"}},
+    "genesisplusgx": {"label": "Mega Drive",        "buttons": {"y": "A", "b": "B", "a": "C", "l": "X", "x": "Y", "r": "Z", "start": "START", "select": "MODE"}},
+    "picodrive":     {"label": "Mega Drive",        "buttons": {"y": "A", "b": "B", "a": "C", "l": "X", "x": "Y", "r": "Z", "start": "START", "select": "MODE"}},
+    "pce":           {"label": "PC Engine",         "buttons": {"b": "II", "a": "I", "select": "SELECT", "start": "RUN"}},
+    "pce_fast":      {"label": "PC Engine",         "buttons": {"b": "II", "a": "I", "select": "SELECT", "start": "RUN"}},
+    "mgba":          {"label": "Game Boy Advance",  "buttons": {"b": "B", "a": "A", "l": "L", "r": "R", "select": "SELECT", "start": "START"}},
+    "gambatte":      {"label": "Game Boy",          "buttons": {"b": "B", "a": "A", "select": "SELECT", "start": "START"}},
+    "vice_x64":      {"label": "Commodore 64",      "buttons": {"b": "FIRE"}, "verify": true},
+    "prboom":        {"label": "Doom",              "buttons": {"b": "B", "a": "A", "y": "Y", "x": "X", "l": "L", "r": "R", "select": "SELECT", "start": "START"}, "verify": true},
+    "mrboom":        {"label": "MrBoom",            "buttons": {"b": "B", "a": "A", "y": "Y", "x": "X", "select": "SELECT", "start": "START"}, "verify": true}
+  },
+  "evmapy_targets": {
+    "_comment": "Meaning of key targets used in /usr/share/evmapy/<port>.keys hotkey combos (for ports not run by RetroArch).",
+    "KEY_LEFTCTRL+KEY_Q": "Exit game", "killall": "Exit game", "KEY_F6": "Save", "KEY_F9": "Load", "KEY_LEFTCTRL+KEY_R": "Restart",
+    "KEY_F12": "Screenshot", "KEY_LEFTCTRL+KEY_A": "Restart level"
+  },
+  "es_functions": {
+    "_comment": "EmulationStation (Batocera v38) game-list functions by ES input name - confirmed on the cabinet help bar.",
+    "b": "Launch (hold = game options)", "a": "Back", "y": "Search", "x": "Save states", "start": "Main menu", "select": "View options",
+    "pageup": "Page up", "pagedown": "Page down"
+  },
+  "retroarch_hotkeys": {
+    "exit_emulator": "Exit game", "menu_toggle": "Pause menu", "save_state": "Save", "load_state": "Load", "reset": "Reset"
+  }
+}
