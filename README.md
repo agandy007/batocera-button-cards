@@ -84,4 +84,5 @@ See [ROADMAP.md](ROADMAP.md) — next up: trackball, spinner, wheel and yoke cab
 ## License
 
 MIT — see [LICENSE](LICENSE). Button-name research uses MAME and MAME 2003-Plus source code and the Arcade History
-database as references; game names and screenshots are property of their owners and are **not** included.
+database as references. Game names, logos and screenshots belong to their owners: the cards use the media already
+scraped on your own cabinet, and the example images in `docs/images` are only illustrations.
