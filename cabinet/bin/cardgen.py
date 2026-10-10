@@ -31,12 +31,69 @@ PADS = ["b", "a", "y", "x", "l", "r", "select", "start"]
 SKIP_SYSTEMS = {"imageviewer", "kodi", "flatpak", "steam"}
 
 
+# ---------------------------------------------------------------- keyboard encoders
+# EmulationStation stores keyboard keys as SDL keycodes, RetroArch as key names; the wizard records evdev codes.
+try:
+    from evdev import ecodes as _ec
+except ImportError:  # pragma: no cover
+    _ec = None
+_SDL_SPECIAL = {8: "BACKSPACE", 9: "TAB", 13: "ENTER", 27: "ESC", 32: "SPACE", 39: "APOSTROPHE", 44: "COMMA", 45: "MINUS",
+                46: "DOT", 47: "SLASH", 59: "SEMICOLON", 61: "EQUAL", 91: "LEFTBRACE", 92: "BACKSLASH", 93: "RIGHTBRACE",
+                96: "GRAVE", 1073741903: "RIGHT", 1073741904: "LEFT", 1073741905: "DOWN", 1073741906: "UP",
+                1073742048: "LEFTCTRL", 1073742049: "LEFTSHIFT", 1073742050: "LEFTALT", 1073742052: "RIGHTCTRL",
+                1073742053: "RIGHTSHIFT", 1073742054: "RIGHTALT"}
+_RA_SPECIAL = {"space": "SPACE", "enter": "ENTER", "escape": "ESC", "backspace": "BACKSPACE", "tab": "TAB",
+               "ctrl": "LEFTCTRL", "lctrl": "LEFTCTRL", "rctrl": "RIGHTCTRL", "alt": "LEFTALT", "lalt": "LEFTALT",
+               "ralt": "RIGHTALT", "shift": "LEFTSHIFT", "lshift": "LEFTSHIFT", "rshift": "RIGHTSHIFT", "up": "UP",
+               "down": "DOWN", "left": "LEFT", "right": "RIGHT", "minus": "MINUS", "equals": "EQUAL", "comma": "COMMA",
+               "period": "DOT", "slash": "SLASH", "semicolon": "SEMICOLON", "quote": "APOSTROPHE", "backquote": "GRAVE",
+               "leftbracket": "LEFTBRACE", "rightbracket": "RIGHTBRACE", "backslash": "BACKSLASH"}
+
+
+# RetroArch's built-in keyboard binds, used when retroarchcustom.cfg doesn't override them
+RA_KEY_DEFAULTS = {"input_player1_a": "x", "input_player1_b": "z", "input_player1_y": "a", "input_player1_x": "s",
+                   "input_player1_l": "q", "input_player1_r": "w", "input_player1_start": "enter",
+                   "input_player1_select": "rshift", "input_exit_emulator": "escape", "input_menu_toggle": "f1",
+                   "input_save_state": "f2", "input_load_state": "f4", "input_reset": "h", "input_enable_hotkey": ""}
+
+
+def _key(name):
+    return getattr(_ec, "KEY_" + name, None) if _ec and name else None
+
+
+def sdl_to_evdev(k):
+    if 97 <= k <= 122 or 48 <= k <= 57:
+        return _key(chr(k).upper())
+    if 1073741882 <= k <= 1073741893:     # F1..F12
+        return _key(f"F{k - 1073741881}")
+    return _key(_SDL_SPECIAL.get(k))
+
+
+def ra_key_to_evdev(name):
+    name = (name or "").strip().lower()
+    if len(name) == 1 and name.isalnum():
+        return _key(name.upper())
+    if name.startswith("num") and name[3:].isdigit():
+        return _key(name[3:])
+    if name.startswith("f") and name[1:].isdigit():
+        return _key(name.upper())
+    return _key(_RA_SPECIAL.get(name))
+
+
 # ---------------------------------------------------------------- discovery
-def es_config(hint):
-    """(ES input name -> evdev code, joystick index -> evdev code) for the first ES config matching `hint`."""
+def es_config(hint, keyboard=False):
+    """(ES input name -> evdev code, joystick index -> evdev code) for the first ES config matching the encoder."""
     names, ids = {}, {}
     if os.path.exists(ES_INPUT):
         for cfg in ET.parse(ES_INPUT).getroot().findall("inputConfig"):
+            if keyboard:
+                if cfg.get("type") != "keyboard":
+                    continue
+                for i in cfg.findall("input"):
+                    code = sdl_to_evdev(int(i.get("id", "0"))) if i.get("type") == "key" else None
+                    if code:
+                        names.setdefault(i.get("name"), code)
+                break
             if hint.lower() in (cfg.get("deviceName") or "").lower():
                 for i in cfg.findall("input"):
                     if i.get("type") == "button" and i.get("code"):
@@ -295,9 +352,14 @@ def main():
     db = json.load(open(f"{BASE}/gamedb.json"))
     size = (pnl["screen"]["width"], pnl["screen"]["height"])
     pos_of = {code: pos for pos, code in pnl["codes"].items()}
+    pal = ["#1e88e5", "#fdd835", "#f4f4f4", "#43a047", "#e53935", "#8e24aa", "#fb8c00", "#00acc1", "#6d4c41", "#d81b60"]
+    pnl.setdefault("colors", {})
+    for i, p in enumerate(p for row in pnl["rows"] for p in row):
+        pnl["colors"].setdefault(p, pal[i % len(pal)])
 
     # menu (EmulationStation) functions -> positions
-    es_names, es_ids = es_config(pnl.get("device_hint", ""))
+    keyboard = pnl.get("device_type") == "keyboard"
+    es_names, es_ids = es_config(pnl.get("device_hint", ""), keyboard)
     es_pos = {name: pos_of[c] for name, c in es_names.items() if c in pos_of}
     menu_labels = {}
     for name, label in prof["es_functions"].items():
@@ -309,6 +371,9 @@ def main():
     # RetroArch RetroPad buttons + hotkeys -> positions (RetroArch joystick index -> evdev code via the ES id table)
     ra = ra_settings()
     def ra_pos(key):
+        if keyboard:   # input_player1_a = "x"  /  input_exit_emulator = "escape"
+            k = key[:-4] if key.endswith("_btn") else key
+            return pos_of.get(ra_key_to_evdev(ra.get(k, RA_KEY_DEFAULTS.get(k, ""))))
         v = ra.get(key, "")
         return pos_of.get(es_ids.get(int(v))) if v.lstrip("-").isdigit() else None
     ra_pad_pos = {pad: ra_pos(f"input_player1_{pad}_btn") for pad in PADS}

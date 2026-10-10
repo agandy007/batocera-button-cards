@@ -52,14 +52,19 @@ See **[docs/ARTICLE.md](docs/ARTICLE.md)** for the full step-by-step write-up, a
 for a briefing you can hand to your own AI assistant. In short:
 
 ```bash
-# 1. record your panel (from your computer; press each player-1 button once, in order)
-python3 tools/wizard.py <cabinet-ip> 120
-# 2. build the label database
+# 1. build the label database (on your computer)
 python3 tools/build_gamedb.py
-# 3. copy to the cabinet and install
+# 2. copy the repo to the cabinet
 scp -r . root@<cabinet-ip>:/userdata/system/batocera-button-cards
+# 3. record your panel: run the wizard ON the cabinet and press each player-1 button once, in the order shown
+ssh -t root@<cabinet-ip> python3 /userdata/system/batocera-button-cards/cabinet/bin/wizard.py --out /userdata/system/cardview/panel.json
+#    other layouts:  --rows 4,4  (8 buttons)   --rows 3,3,2   --above 2 (coin/start)   --compare (check player 2)
+# 4. install (renders all cards and starts the viewer on the 2nd screen)
 ssh root@<cabinet-ip> /userdata/system/batocera-button-cards/cabinet/install.sh
 ```
+
+Joystick-type encoders (DragonRise "zero delay", Xin-Mo, …) and keyboard-type encoders (I-PAC, …) are both supported:
+the wizard records whichever device you press.
 
 ## Extras
 
