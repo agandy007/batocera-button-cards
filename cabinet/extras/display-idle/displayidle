@@ -1,0 +1,3 @@
+#!/bin/bash
+# Batocera service wrapper (v38 runs services with bash). The work is done by displayidle.py.
+exec /usr/bin/python3 /userdata/system/displayidle/displayidle.py "$@"

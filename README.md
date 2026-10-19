@@ -78,10 +78,10 @@ ssh root@<cabinet-ip> python3 /userdata/system/cardview/bin/playable.py --apply
   boot and never connect until the network settings are re-saved; this checks for an IP address for a few minutes after
   boot and reconnects (copy to `/userdata/system/services/`, then `batocera-services enable wifiwatchdog`).
 
-- `cabinet/extras/display-sleep/` — optional EmulationStation hooks that switch **all** the cabinet's displays off after
-  5 minutes without input (and back on with any button). They use the menu's screensaver events because X's own idle
-  timer ignores joysticks. Copy `screensaver-start.sh` / `screensaver-stop.sh` to
-  `/userdata/system/configs/emulationstation/scripts/screensaver-start|stop/`. Screens never sleep during a game.
+- `cabinet/extras/display-idle/` — optional service that blacks out **all** the cabinet's screens after 5 minutes
+  without input from any controller, gun or keyboard (in the menu and during games) and restores them on the next
+  press. It watches the input devices itself because X's idle timer ignores joysticks, and it dims to black instead of
+  powering monitors off, since DPMS-off makes Batocera think a screen was unplugged and restart the menu. See its README.
 
 ## Button names — help wanted
 
