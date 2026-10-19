@@ -1,12 +1,13 @@
 #!/usr/bin/python3
-"""Batocera service: black out every display after N minutes without input, restore on the next input.
+"""Batocera service: put every display to sleep after N minutes without input, wake it on the next input.
 
 Install:  see README.md next to this file
 Settings (batocera.conf, optional):  displayidle.minutes=5
 
-Why not power the monitors off (DPMS)? Many monitors report themselves as disconnected in power-save, and Batocera's
-screen hotplug handler then restarts EmulationStation - an endless off/restart/on loop. Setting each output's
-brightness to 0 keeps the video signal (no hotplug) while the screen shows black.
+Monitors are put in power-save (DPMS off; displayidle.mode=black only dims them to black instead). Many monitors report
+themselves as disconnected in power-save, and Batocera's hotplug handler (batocera-switch-screen-checker) would restart
+EmulationStation. That handler skips an event when /tmp/no-hotplug exists, so we keep that file in place while the
+screens sleep and for a while after they wake.
 Why read input devices directly? X's idle timer ignores joysticks, and EmulationStation's screensaver doesn't run
 while a game is open. Reading the encoders/guns/keyboards catches everything, in the menu and in games.
 """
@@ -22,12 +23,12 @@ def log(msg):
         f.write(time.strftime("%H:%M:%S ") + msg + "\n")
 
 
-def minutes():
+def setting(key, default):
     try:
-        v = subprocess.run(["batocera-settings-get", "displayidle.minutes"], capture_output=True, text=True).stdout.strip()
-        return float(v) if v else 5.0
+        v = subprocess.run(["batocera-settings-get", key], capture_output=True, text=True, timeout=10).stdout.strip()
+        return v or default
     except Exception:
-        return 5.0
+        return default
 
 
 _outputs = []
@@ -54,6 +55,50 @@ def set_brightness(value):
             log(f"xrandr {o} failed: {ex}")
 
 
+GUARD = "/tmp/no-hotplug"
+_guard_until = 0.0
+
+
+def guard_loop():
+    """Keep the hotplug handler's skip file present while needed (the handler deletes it each time it is used)."""
+    held = False
+    while True:
+        if time.time() < _guard_until:
+            if not os.path.exists(GUARD):
+                open(GUARD, "w").close()
+            held = True
+        elif held:                                      # done: let real plug/unplug events through again
+            try:
+                os.remove(GUARD)
+            except OSError:
+                pass
+            held = False
+        time.sleep(0.2)
+
+
+def xset(*args):
+    try:
+        subprocess.run(["xset", *args], env=ENV, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, timeout=5)
+    except Exception as ex:
+        log(f"xset {' '.join(args)} failed: {ex}")
+
+
+def screens(on, mode):
+    global _guard_until
+    if mode == "black":
+        set_brightness(1 if on else 0)
+        return
+    _guard_until = float("inf")
+    if on:
+        xset("dpms", "force", "on")
+        xset("-dpms")
+        _guard_until = time.time() + 20                 # monitors re-announce themselves while waking
+    else:
+        xset("dpms", "0", "0", "0")                     # no X timers: X ignores joysticks
+        xset("+dpms")
+        xset("dpms", "force", "off")
+
+
 def open_devices(evdev):
     devs = {}
     for path in evdev.list_devices():
@@ -69,8 +114,9 @@ def open_devices(evdev):
     return devs
 
 
-def run(idle_seconds):
-    import evdev
+def run(idle_seconds, mode):
+    import evdev, threading
+    threading.Thread(target=guard_loop, daemon=True).start()
     from evdev import ecodes as e
     devs, rescan, last_input, blank = open_devices(evdev), time.time() + 30, time.time(), False
     absinfo = {}
@@ -78,11 +124,12 @@ def run(idle_seconds):
 
     def restore(*_):
         if blank:
-            set_brightness(1)
+            screens(True, mode)
+            time.sleep(21)                              # guard_loop removes the skip file after its 20 s
         sys.exit(0)
     signal.signal(signal.SIGTERM, restore)
     signal.signal(signal.SIGINT, restore)
-    log(f"started: blank after {idle_seconds:.0f}s, watching {len(devs)} devices")
+    log(f"started: {mode} after {idle_seconds:.0f}s, watching {len(devs)} devices")
     while True:
         r, _, _ = select.select(list(devs), [], [], 1.0)
         active = False
@@ -118,10 +165,10 @@ def run(idle_seconds):
         if active:
             last_input = now
             if blank:
-                set_brightness(1); blank = False
+                screens(True, mode); blank = False
                 log("input - displays restored")
         elif not blank and now - last_input >= idle_seconds:
-            set_brightness(0); blank = True
+            screens(False, mode); blank = True
             log("idle - displays blanked")
         if now >= rescan:                              # pick up re-plugged/recreated devices (e.g. Sinden guns)
             for fd, d in open_devices(evdev).items():
@@ -137,7 +184,7 @@ if __name__ == "__main__":
         if pid == 0:
             os.setsid()
             time.sleep(20)                              # let X/EmulationStation come up first
-            run(minutes() * 60)
+            run(float(setting("displayidle.minutes", "5")) * 60, setting("displayidle.mode", "dpms"))
         open("/var/run/displayidle.pid", "w").write(str(pid))
     elif cmd == "stop":
         try:
@@ -145,4 +192,4 @@ if __name__ == "__main__":
         except Exception:
             pass
     elif cmd == "test":                                 # displayidle test <seconds>: run in the foreground
-        run(float(sys.argv[2]) if len(sys.argv) > 2 else 10)
+        run(float(sys.argv[2]) if len(sys.argv) > 2 else 10, sys.argv[3] if len(sys.argv) > 3 else "dpms")
