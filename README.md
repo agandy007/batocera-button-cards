@@ -78,6 +78,11 @@ ssh root@<cabinet-ip> python3 /userdata/system/cardview/bin/playable.py --apply
   boot and never connect until the network settings are re-saved; this checks for an IP address for a few minutes after
   boot and reconnects (copy to `/userdata/system/services/`, then `batocera-services enable wifiwatchdog`).
 
+- `cabinet/extras/display-sleep/` — optional EmulationStation hooks that switch **all** the cabinet's displays off after
+  5 minutes without input (and back on with any button). They use the menu's screensaver events because X's own idle
+  timer ignores joysticks. Copy `screensaver-start.sh` / `screensaver-stop.sh` to
+  `/userdata/system/configs/emulationstation/scripts/screensaver-start|stop/`. Screens never sleep during a game.
+
 ## Button names — help wanted
 
 Button names live in **[data/community-labels.csv](data/community-labels.csv)**, one row per game and button, with the
